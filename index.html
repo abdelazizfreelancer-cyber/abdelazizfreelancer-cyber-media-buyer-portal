@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
@@ -59,21 +59,21 @@ h1, h2, h3, h4 { font-weight: 700; }
 a { color: var(--gold); text-decoration: none; transition: color var(--transition); }
 a:hover { color: var(--gold-hover); }
 
-/* â”€â”€â”€ Utilities â”€â”€â”€ */
+/* ─── Utilities ─── */
 .gold-text { color: var(--gold); }
 .text-muted { color: var(--text-muted); }
 .text-success { color: var(--success); }
 .text-danger { color: var(--danger); }
 .hidden { display: none !important; }
 
-/* â”€â”€â”€ Container â”€â”€â”€ */
+/* ─── Container ─── */
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 30px 20px;
 }
 
-/* â”€â”€â”€ Buttons â”€â”€â”€ */
+/* ─── Buttons ─── */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -143,7 +143,7 @@ a:hover { color: var(--gold-hover); }
     box-shadow: none;
 }
 
-/* â”€â”€â”€ Forms â”€â”€â”€ */
+/* ─── Forms ─── */
 .form-group {
     margin-bottom: 24px;
 }
@@ -180,7 +180,7 @@ a:hover { color: var(--gold-hover); }
     min-height: 120px;
 }
 
-/* â”€â”€â”€ Cards â”€â”€â”€ */
+/* ─── Cards ─── */
 .card {
     background: var(--bg-card);
     padding: 24px;
@@ -202,7 +202,7 @@ a:hover { color: var(--gold-hover); }
     border-bottom: 1px solid var(--border-color);
 }
 
-/* â”€â”€â”€ Stats Cards â”€â”€â”€ */
+/* ─── Stats Cards ─── */
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -252,7 +252,7 @@ a:hover { color: var(--gold-hover); }
     color: var(--text-muted);
 }
 
-/* â”€â”€â”€ Dashboard Header â”€â”€â”€ */
+/* ─── Dashboard Header ─── */
 .dashboard-header {
     display: flex;
     justify-content: space-between;
@@ -274,7 +274,7 @@ a:hover { color: var(--gold-hover); }
     align-items: center;
 }
 
-/* â”€â”€â”€ Tabs â”€â”€â”€ */
+/* ─── Tabs ─── */
 .tabs {
     display: flex;
     gap: 4px;
@@ -322,7 +322,7 @@ a:hover { color: var(--gold-hover); }
     background: rgba(0,0,0,0.2);
 }
 
-/* â”€â”€â”€ Client Card (List) â”€â”€â”€ */
+/* ─── Client Card (List) ─── */
 .client-list-item {
     display: flex;
     justify-content: space-between;
@@ -379,7 +379,7 @@ a:hover { color: var(--gold-hover); }
     gap: 6px;
 }
 
-/* â”€â”€â”€ Badges â”€â”€â”€ */
+/* ─── Badges ─── */
 .badge {
     display: inline-flex;
     align-items: center;
@@ -394,7 +394,7 @@ a:hover { color: var(--gold-hover); }
 .badge-danger { background: var(--danger-bg); color: var(--danger); }
 .badge-info { background: var(--info-bg); color: var(--info); }
 
-/* â”€â”€â”€ Section Title â”€â”€â”€ */
+/* ─── Section Title ─── */
 .section-title {
     color: var(--gold);
     margin-bottom: 20px;
@@ -418,7 +418,7 @@ a:hover { color: var(--gold-hover); }
     flex-shrink: 0;
 }
 
-/* â”€â”€â”€ Slot / Meeting â”€â”€â”€ */
+/* ─── Slot / Meeting ─── */
 .slot-day-group {
     margin-bottom: 12px;
     background: rgba(255,255,255,0.02);
@@ -467,7 +467,7 @@ a:hover { color: var(--gold-hover); }
     word-break: break-all;
 }
 
-/* â”€â”€â”€ Toast / Notifications â”€â”€â”€ */
+/* ─── Toast / Notifications ─── */
 #toast-container {
     position: fixed;
     bottom: 20px;
@@ -502,7 +502,7 @@ a:hover { color: var(--gold-hover); }
     to { transform: translateX(0); opacity: 1; }
 }
 
-/* â”€â”€â”€ Empty State â”€â”€â”€ */
+/* ─── Empty State ─── */
 .empty-state {
     text-align: center;
     padding: 40px 20px;
@@ -517,7 +517,7 @@ a:hover { color: var(--gold-hover); }
     font-size: 1rem;
 }
 
-/* â”€â”€â”€ Progress Bar (for wizard) â”€â”€â”€ */
+/* ─── Progress Bar (for wizard) ─── */
 .progress-bar-container {
     width: 100%;
     height: 4px;
@@ -533,7 +533,7 @@ a:hover { color: var(--gold-hover); }
     transition: width 0.5s ease;
 }
 
-/* â”€â”€â”€ Wizard Question â”€â”€â”€ */
+/* ─── Wizard Question ─── */
 .wizard-step {
     animation: fadeInStep 0.4s ease;
 }
@@ -542,7 +542,7 @@ a:hover { color: var(--gold-hover); }
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* â”€â”€â”€ Upload Box â”€â”€â”€ */
+/* ─── Upload Box ─── */
 .upload-box {
     border: 2px dashed var(--border-color);
     padding: 30px;
@@ -559,7 +559,7 @@ a:hover { color: var(--gold-hover); }
 .upload-box input { display: none; }
 .upload-box i { font-size: 2rem; color: var(--text-muted); margin-bottom: 10px; }
 
-/* â”€â”€â”€ Contract â”€â”€â”€ */
+/* ─── Contract ─── */
 .contract-body {
     background: #fefefe;
     color: #1a1a1a;
@@ -581,7 +581,7 @@ a:hover { color: var(--gold-hover); }
     margin-top: 24px;
 }
 
-/* â”€â”€â”€ Timer â”€â”€â”€ */
+/* ─── Timer ─── */
 .timer-display {
     background: rgba(0,0,0,0.3);
     padding: 24px;
@@ -611,7 +611,7 @@ a:hover { color: var(--gold-hover); }
     margin-top: 4px;
 }
 
-/* â”€â”€â”€ Accordion â”€â”€â”€ */
+/* ─── Accordion ─── */
 .accordion-item {
     border: 1px solid var(--border-color);
     border-radius: var(--radius-sm);
@@ -643,7 +643,7 @@ a:hover { color: var(--gold-hover); }
     border-top: 1px solid var(--border-color);
 }
 
-/* â”€â”€â”€ Modal â”€â”€â”€ */
+/* ─── Modal ─── */
 .modal-overlay {
     position: fixed;
     inset: 0;
@@ -676,7 +676,7 @@ a:hover { color: var(--gold-hover); }
 @keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
 @keyframes scaleIn { from { opacity:0; transform:scale(0.95) } to { opacity:1; transform:scale(1) } }
 
-/* â”€â”€â”€ Start page â”€â”€â”€ */
+/* ─── Start page ─── */
 .start-page {
     min-height: 100vh;
     display: flex;
@@ -711,7 +711,7 @@ a:hover { color: var(--gold-hover); }
     font-size: 1.05rem;
 }
 
-/* â”€â”€â”€ Login Card â”€â”€â”€ */
+/* ─── Login Card ─── */
 .login-page {
     min-height: 100vh;
     display: flex;
@@ -733,7 +733,7 @@ a:hover { color: var(--gold-hover); }
     margin-bottom: 30px;
 }
 
-/* â”€â”€â”€ Search Bar â”€â”€â”€ */
+/* ─── Search Bar ─── */
 .search-bar {
     position: relative;
     margin-bottom: 20px;
@@ -761,7 +761,7 @@ a:hover { color: var(--gold-hover); }
     color: var(--text-muted);
 }
 
-/* â”€â”€â”€ Answer Card (Admin View) â”€â”€â”€ */
+/* ─── Answer Card (Admin View) ─── */
 .answer-item {
     background: rgba(255,255,255,0.03);
     padding: 16px 20px;
@@ -787,7 +787,7 @@ a:hover { color: var(--gold-hover); }
     border: 1px solid var(--border-color);
 }
 
-/* â”€â”€â”€ Client Profile Header â”€â”€â”€ */
+/* ─── Client Profile Header ─── */
 .profile-header {
     display: flex;
     align-items: center;
@@ -809,7 +809,7 @@ a:hover { color: var(--gold-hover); }
     border: 2px solid var(--border-active);
 }
 
-/* â”€â”€â”€ Responsive â”€â”€â”€ */
+/* ─── Responsive ─── */
 @media (max-width: 768px) {
     .dashboard-header {
         flex-direction: column;
@@ -861,7 +861,7 @@ a:hover { color: var(--gold-hover); }
     }
 }
 
-/* â”€â”€â”€ Print Styles â”€â”€â”€ */
+/* ─── Print Styles ─── */
 @media print {
     body {
         background-color: white;
@@ -879,46 +879,46 @@ a:hover { color: var(--gold-hover); }
     <div id="app"></div>
     <div id="toast-container"></div>
     <script>
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-//  Media Buyer Portal â€” Complete App v2.0
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// ══════════════════════════════════════════════════════
+//  Media Buyer Portal — Complete App v2.0
+// ══════════════════════════════════════════════════════
 
-// â”€â”€â”€ Default Database â”€â”€â”€
+// ─── Default Database ───
 const defaultDB = {
     config: {
         adminPassword: '01a80dzeA',
-        adminName: 'Ø§Ù„Ù…ÙŠØ¯ÙŠØ§ Ø¨Ø§ÙŠØ±',
+        adminName: 'الميديا باير',
         whatsapp: '',
         briefQuestions: [
-            { id: 'q1', type: 'text', text: 'Ø§Ø³Ù… Ø§Ù„Ø¨Ø±Ø§Ù†Ø¯ Ø¨Ø§Ù„Ø¸Ø¨Ø·ØŒ ÙˆÙ†Ø´Ø§Ø·Ù‡ (Ø¥ÙŠÙ‡ Ø§Ù„Ù…Ù†ØªØ¬Ø§Øª Ø§Ù„Ù„ÙŠ Ø¨ØªØ¨ÙŠØ¹Ù‡Ø§ Ø¨Ø§Ù„ØªØ­Ø¯ÙŠØ¯)', required: true },
-            { id: 'q2', type: 'text', text: 'Ù‚ØµØ© Ø§Ù„Ø¨Ø±Ø§Ù†Ø¯ Ø¨Ø§Ø®ØªØµØ§Ø± â€” Ø¥Ù…ØªÙ‰ Ø§ØªØ£Ø³Ø³ ÙˆÙ„ÙŠÙ‡ Ø¨Ø¯Ø£ Ø£ØµÙ„Ø§Ù‹', required: true },
-            { id: 'q3', type: 'text', text: 'Ø¥ÙŠÙ‡ Ø£ÙƒØªØ± Ø­Ø§Ø¬Ø© Ø¨ØªÙ…ÙŠØ²ÙƒÙ… Ø¹Ù† Ø£ÙŠ Ø¨Ø±Ø§Ù†Ø¯ ØªØ§Ù†ÙŠ Ø¨ÙŠØ¨ÙŠØ¹ Ù†ÙØ³ Ø§Ù„Ù…Ù†ØªØ¬Ø§Øª (USP)', required: true },
-            { id: 'q4', type: 'radio', text: 'Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„ØªØ´ØºÙŠÙ„ÙŠ Ø§Ù„Ø­Ø§Ù„ÙŠ', options: ['ÙØ±Ø¹ ÙˆØ§Ø­Ø¯', 'Ø¹Ø¯Ø© ÙØ±ÙˆØ¹', 'Ø£ÙˆÙ†Ù„Ø§ÙŠÙ† ÙÙ‚Ø·'], required: true },
-            { id: 'q5', type: 'text', text: 'Ø±ÙˆØ§Ø¨Ø· Ø§Ù„Ø­Ø³Ø§Ø¨Ø§Øª Ø§Ù„Ø­Ø§Ù„ÙŠØ© (Ø§Ù†Ø³ØªØ¬Ø±Ø§Ù…ØŒ ÙÙŠØ³Ø¨ÙˆÙƒØŒ ØªÙŠÙƒ ØªÙˆÙƒØŒ Ø¥Ù„Ø®)', required: false },
-            { id: 'q6', type: 'file', text: 'Ø§Ø±ÙØ¹ Ø§Ù„Ù„ÙˆØ¬Ùˆ ÙˆØµÙˆØ± Ù„Ù„Ù…Ù†ØªØ¬Ø§Øª (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)', required: false }
+            { id: 'q1', type: 'text', text: 'اسم البراند بالظبط، ونشاطه (إيه المنتجات اللي بتبيعها بالتحديد)', required: true },
+            { id: 'q2', type: 'text', text: 'قصة البراند باختصار — إمتى اتأسس وليه بدأ أصلاً', required: true },
+            { id: 'q3', type: 'text', text: 'إيه أكتر حاجة بتميزكم عن أي براند تاني بيبيع نفس المنتجات (USP)', required: true },
+            { id: 'q4', type: 'radio', text: 'الوضع التشغيلي الحالي', options: ['فرع واحد', 'عدة فروع', 'أونلاين فقط'], required: true },
+            { id: 'q5', type: 'text', text: 'روابط الحسابات الحالية (انستجرام، فيسبوك، تيك توك، إلخ)', required: false },
+            { id: 'q6', type: 'file', text: 'ارفع اللوجو وصور للمنتجات (اختياري)', required: false }
         ],
-        contractTerms: `Ø§Ù„Ø¨Ù†Ø¯ Ø§Ù„Ø£ÙˆÙ„ â€” Ù†Ø·Ø§Ù‚ Ø§Ù„Ø¹Ù…Ù„ ÙˆØ§Ù„Ø®Ø¯Ù…Ø§Øª
-Ø¥Ø¹Ø¯Ø§Ø¯ ÙˆØªÙ†ÙÙŠØ° Ø§Ù„Ø®Ø·Ø© Ø§Ù„Ø¥Ø¹Ù„Ø§Ù†ÙŠØ© Ø§Ù„Ø´Ù‡Ø±ÙŠØ© Ø¹Ø¨Ø± Ø§Ù„Ù…Ù†ØµØ§Øª Ø§Ù„Ù…ØªÙÙ‚ Ø¹Ù„ÙŠÙ‡Ø§ Ø¨ÙŠÙ† Ø§Ù„Ø·Ø±ÙÙŠÙ†.
-Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ø­Ù…Ù„Ø§Øª Ø§Ù„Ø¥Ø¹Ù„Ø§Ù†ÙŠØ© ÙˆÙ…ØªØ§Ø¨Ø¹ØªÙ‡Ø§ ÙˆØªØ­Ø³ÙŠÙ† Ø£Ø¯Ø§Ø¦Ù‡Ø§ Ø¨Ø´ÙƒÙ„ Ù…Ø³ØªÙ…Ø±.
+        contractTerms: `البند الأول — نطاق العمل والخدمات
+إعداد وتنفيذ الخطة الإعلانية الشهرية عبر المنصات المتفق عليها بين الطرفين.
+إدارة الحملات الإعلانية ومتابعتها وتحسين أدائها بشكل مستمر.
 
-Ø§Ù„Ø¨Ù†Ø¯ Ø§Ù„Ø«Ø§Ù†ÙŠ â€” Ø§Ù„ØªØ²Ø§Ù…Ø§Øª Ø§Ù„Ø·Ø±Ù Ø§Ù„Ø«Ø§Ù†ÙŠ
-ØªÙ†ÙÙŠØ° Ø§Ù„Ø£Ø¹Ù…Ø§Ù„ Ø§Ù„Ù…ØªÙÙ‚ Ø¹Ù„ÙŠÙ‡Ø§ Ø¨Ù…Ù‡Ù†ÙŠØ© ÙˆÙˆÙÙ‚Ø§Ù‹ Ù„Ø£ÙØ¶Ù„ Ø§Ù„Ù…Ù…Ø§Ø±Ø³Ø§Øª.
-Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ø³Ø±ÙŠØ© Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ø·Ø±Ù Ø§Ù„Ø£ÙˆÙ„ ÙˆØ¹Ø¯Ù… Ø§Ø³ØªØ®Ø¯Ø§Ù…Ù‡Ø§ ÙÙŠ ØºÙŠØ± Ø£ØºØ±Ø§Ø¶ Ù‡Ø°Ø§ Ø§Ù„Ø¹Ù‚Ø¯.
+البند الثاني — التزامات الطرف الثاني
+تنفيذ الأعمال المتفق عليها بمهنية ووفقاً لأفضل الممارسات.
+الحفاظ على سرية بيانات الطرف الأول وعدم استخدامها في غير أغراض هذا العقد.
 
-Ø§Ù„Ø¨Ù†Ø¯ Ø§Ù„Ø«Ø§Ù„Ø« â€” Ø§Ù„Ù…Ø¯Ø©
-Ù…Ø¯Ø© Ù‡Ø°Ø§ Ø§Ù„Ø¹Ù‚Ø¯ Ø´Ù‡Ø± ÙˆØ§Ø­Ø¯ ØªØ¨Ø¯Ø£ Ù…Ù† ØªØ§Ø±ÙŠØ® Ø§Ù„ØªÙˆÙ‚ÙŠØ¹ ÙˆØªØ¬Ø¯Ø¯ ØªÙ„Ù‚Ø§Ø¦ÙŠØ§Ù‹ Ù…Ø§ Ù„Ù… ÙŠØ®Ø·Ø± Ø£Ø­Ø¯ Ø§Ù„Ø·Ø±ÙÙŠÙ† Ø§Ù„Ø¢Ø®Ø± Ø¨Ø±ØºØ¨ØªÙ‡ ÙÙŠ Ø¹Ø¯Ù… Ø§Ù„ØªØ¬Ø¯ÙŠØ¯ Ù‚Ø¨Ù„ 7 Ø£ÙŠØ§Ù… Ù…Ù† Ø§Ù†ØªÙ‡Ø§Ø¡ Ø§Ù„Ù…Ø¯Ø©.
+البند الثالث — المدة
+مدة هذا العقد شهر واحد تبدأ من تاريخ التوقيع وتجدد تلقائياً ما لم يخطر أحد الطرفين الآخر برغبته في عدم التجديد قبل 7 أيام من انتهاء المدة.
 
-Ø§Ù„Ø¨Ù†Ø¯ Ø§Ù„Ø±Ø§Ø¨Ø¹ â€” Ø§Ù„Ø³Ø±ÙŠØ©
-ÙŠÙ„ØªØ²Ù… Ø§Ù„Ø·Ø±Ù Ø§Ù„Ø«Ø§Ù†ÙŠ Ø¨Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ø³Ø±ÙŠØ© Ø¬Ù…ÙŠØ¹ Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª ÙˆØ§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ø®Ø§ØµØ© Ø¨Ø§Ù„Ø·Ø±Ù Ø§Ù„Ø£ÙˆÙ„.`,
+البند الرابع — السرية
+يلتزم الطرف الثاني بالحفاظ على سرية جميع المعلومات والبيانات الخاصة بالطرف الأول.`,
         slots: [],
         invoiceItems: [
-            { id: 'inv_default', name: 'Ø¥Ø¯Ø§Ø±Ø© Ø­Ù…Ù„Ø§Øª Ø¥Ø¹Ù„Ø§Ù†ÙŠØ©', price: 0 }
+            { id: 'inv_default', name: 'إدارة حملات إعلانية', price: 0 }
         ]
     },
     clients: {}
 };
 
-// â”€â”€â”€ Initialize DB â”€â”€â”€
+// ─── Initialize DB ───
 if (!localStorage.getItem('mb_db')) {
     localStorage.setItem('mb_db', JSON.stringify(defaultDB));
 }
@@ -926,7 +926,7 @@ let db = JSON.parse(localStorage.getItem('mb_db'));
 
 // Migration: add missing fields
 if (!db.config.slots) db.config.slots = [];
-if (!db.config.adminName) db.config.adminName = 'Ø§Ù„Ù…ÙŠØ¯ÙŠØ§ Ø¨Ø§ÙŠØ±';
+if (!db.config.adminName) db.config.adminName = 'الميديا باير';
 if (!db.config.whatsapp) db.config.whatsapp = '';
 if (!db.config.invoiceItems) db.config.invoiceItems = defaultDB.config.invoiceItems;
 
@@ -948,7 +948,7 @@ Object.values(db.clients).forEach(c => {
 
 const saveDB = () => localStorage.setItem('mb_db', JSON.stringify(db));
 
-// â”€â”€â”€ Toast System â”€â”€â”€
+// ─── Toast System ───
 const showToast = (message, type = 'success') => {
     const container = document.getElementById('toast-container');
     const icons = { success: 'fa-check-circle', error: 'fa-exclamation-circle', info: 'fa-info-circle', warning: 'fa-exclamation-triangle' };
@@ -959,7 +959,7 @@ const showToast = (message, type = 'success') => {
     setTimeout(() => { toast.style.opacity = '0'; setTimeout(() => toast.remove(), 300); }, 3500);
 };
 
-// â”€â”€â”€ Modal System â”€â”€â”€
+// ─── Modal System ───
 const showModal = (title, contentHtml, onConfirm) => {
     const overlay = document.createElement('div');
     overlay.className = 'modal-overlay';
@@ -968,8 +968,8 @@ const showModal = (title, contentHtml, onConfirm) => {
             <h3 class="modal-title">${title}</h3>
             <div id="modalBody">${contentHtml}</div>
             <div style="display:flex; gap:10px; margin-top:24px; justify-content:flex-end;">
-                <button class="btn" id="modalCancel">Ø¥Ù„ØºØ§Ø¡</button>
-                ${onConfirm ? '<button class="btn btn-primary" id="modalConfirm">ØªØ£ÙƒÙŠØ¯</button>' : ''}
+                <button class="btn" id="modalCancel">إلغاء</button>
+                ${onConfirm ? '<button class="btn btn-primary" id="modalConfirm">تأكيد</button>' : ''}
             </div>
         </div>
     `;
@@ -980,7 +980,7 @@ const showModal = (title, contentHtml, onConfirm) => {
     return overlay;
 };
 
-// â”€â”€â”€ Helpers â”€â”€â”€
+// ─── Helpers ───
 const getInitials = (name) => {
     if (!name) return '?';
     const parts = name.trim().split(/\s+/);
@@ -988,12 +988,12 @@ const getInitials = (name) => {
 };
 
 const getStatusBadge = (client) => {
-    if (client.contractSigned) return '<span class="badge badge-success"><i class="fas fa-check"></i> ÙˆÙ‚Ù‘Ø¹ Ø§Ù„Ø¹Ù‚Ø¯</span>';
-    if (client.contractRevealed) return '<span class="badge badge-warning"><i class="fas fa-file-signature"></i> Ø¨Ø§Ù†ØªØ¸Ø§Ø± Ø§Ù„ØªÙˆÙ‚ÙŠØ¹</span>';
-    if (client.meetingSlotId) return '<span class="badge badge-info"><i class="fas fa-calendar-check"></i> Ø­Ø¬Ø² Ù…ÙŠØªÙŠÙ†Ø¬</span>';
-    if (client.briefAnswers) return '<span class="badge badge-info"><i class="fas fa-clipboard-check"></i> Ø£Ø±Ø³Ù„ Ø§Ù„Ø¨Ø±ÙŠÙ</span>';
-    if (client.name) return '<span class="badge badge-warning"><i class="fas fa-user"></i> Ø³Ø¬Ù‘Ù„ Ø¨ÙŠØ§Ù†Ø§ØªÙ‡</span>';
-    return '<span class="badge badge-danger"><i class="fas fa-clock"></i> Ù„Ù… ÙŠØ¨Ø¯Ø£ Ø¨Ø¹Ø¯</span>';
+    if (client.contractSigned) return '<span class="badge badge-success"><i class="fas fa-check"></i> وقّع العقد</span>';
+    if (client.contractRevealed) return '<span class="badge badge-warning"><i class="fas fa-file-signature"></i> بانتظار التوقيع</span>';
+    if (client.meetingSlotId) return '<span class="badge badge-info"><i class="fas fa-calendar-check"></i> حجز ميتينج</span>';
+    if (client.briefAnswers) return '<span class="badge badge-info"><i class="fas fa-clipboard-check"></i> أرسل البريف</span>';
+    if (client.name) return '<span class="badge badge-warning"><i class="fas fa-user"></i> سجّل بياناته</span>';
+    return '<span class="badge badge-danger"><i class="fas fa-clock"></i> لم يبدأ بعد</span>';
 };
 
 const formatDate = (d) => new Date(d).toLocaleDateString('ar-EG', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
@@ -1005,7 +1005,7 @@ const playAlertSound = () => {
     audio.play().catch(() => {});
 };
 
-// â”€â”€â”€ Core Router â”€â”€â”€
+// ─── Core Router ───
 const navigate = () => {
     if (window.meetingInterval) clearInterval(window.meetingInterval);
     if (window.adminInterval) clearInterval(window.adminInterval);
@@ -1022,7 +1022,7 @@ const navigate = () => {
 
 window.addEventListener('hashchange', navigate);
 
-// â”€â”€â”€ Admin Alerts â”€â”€â”€
+// ─── Admin Alerts ───
 const startAdminAlerts = () => {
     if (window.adminInterval) clearInterval(window.adminInterval);
     window.adminInterval = setInterval(() => {
@@ -1033,14 +1033,14 @@ const startAdminAlerts = () => {
                 const mTime = new Date(s.dateTime).getTime();
                 const diff = mTime - now;
                 const c = Object.values(db.clients).find(x => x.phone === s.bookedByPhone || x.id === s.bookedByPhone);
-                const cName = c && c.name ? c.name : 'Ø¹Ù…ÙŠÙ„';
+                const cName = c && c.name ? c.name : 'عميل';
                 if (!s.alerted10 && diff <= 10 * 60 * 1000 && diff > 0) {
                     s.alerted10 = true; changed = true; playAlertSound();
-                    showToast(`ÙŠØªØ¨Ù‚Ù‰ 10 Ø¯Ù‚Ø§Ø¦Ù‚ Ø¹Ù„Ù‰ Ù…ÙŠØªÙŠÙ†Ø¬ Ø§Ù„Ø¹Ù…ÙŠÙ„ (${cName})`, 'warning');
+                    showToast(`يتبقى 10 دقائق على ميتينج العميل (${cName})`, 'warning');
                 }
                 if (!s.alertedNow && diff <= 0 && diff > -5 * 60 * 1000) {
                     s.alertedNow = true; changed = true; playAlertSound();
-                    showToast(`Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬ Ø¨Ø¯Ø£ Ø§Ù„Ø¢Ù† Ù…Ø¹ Ø§Ù„Ø¹Ù…ÙŠÙ„ (${cName})!`, 'error');
+                    showToast(`الميتينج بدأ الآن مع العميل (${cName})!`, 'error');
                 }
             }
         });
@@ -1048,43 +1048,43 @@ const startAdminAlerts = () => {
     }, 15000);
 };
 
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// ══════════════════════════════════════════════════════
 //  VIEWS
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// ══════════════════════════════════════════════════════
 
-// â”€â”€â”€ Start Page â”€â”€â”€
+// ─── Start Page ───
 const renderStart = (app) => {
     app.innerHTML = `
         <div class="start-page">
             <div class="start-content">
                 <div class="start-logo"><i class="fas fa-bullhorn"></i></div>
-                <h1>Ù…Ø±Ø­Ø¨Ø§Ù‹ Ø¨Ùƒ ÙÙŠ <span class="gold-text">Ù†Ø¸Ø§Ù… Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ø¹Ù…Ù„Ø§Ø¡</span></h1>
-                <p>Ù†Ø¸Ø§Ù… Ù…ØªÙƒØ§Ù…Ù„ Ù„Ø¥Ø¯Ø§Ø±Ø© Ø¹Ù…Ù„Ø§Ø¡ Ø§Ù„Ù…ÙŠØ¯ÙŠØ§ Ø¨Ø§ÙŠÙ†Ø¬ â€” Ù…Ù† Ø§Ù„Ø¨Ø±ÙŠÙ Ù„Ù„Ù…ÙŠØªÙŠÙ†Ø¬ Ù„Ù„Ø¹Ù‚Ø¯</p>
+                <h1>مرحباً بك في <span class="gold-text">نظام إدارة العملاء</span></h1>
+                <p>نظام متكامل لإدارة عملاء الميديا باينج — من البريف للميتينج للعقد</p>
                 <button onclick="window.location.hash='#admin'" class="btn btn-primary" style="padding:14px 40px; font-size:1.1rem;">
-                    <i class="fas fa-lock"></i> Ø¯Ø®ÙˆÙ„ Ù„ÙˆØ­Ø© Ø§Ù„ØªØ­ÙƒÙ…
+                    <i class="fas fa-lock"></i> دخول لوحة التحكم
                 </button>
             </div>
         </div>
     `;
 };
 
-// â”€â”€â”€ Admin Login â”€â”€â”€
+// ─── Admin Login ───
 const renderAdminLogin = (app) => {
     app.innerHTML = `
         <div class="login-page">
             <div class="card login-card">
                 <div style="text-align:center; margin-bottom:24px;">
                     <div class="start-logo" style="margin: 0 auto 16px;"><i class="fas fa-shield-halved"></i></div>
-                    <h2 class="gold-text">ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„</h2>
-                    <p>Ø£Ø¯Ø®Ù„ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ù„Ù„ÙˆØµÙˆÙ„ Ù„Ù„ÙˆØ­Ø© Ø§Ù„ØªØ­ÙƒÙ…</p>
+                    <h2 class="gold-text">تسجيل الدخول</h2>
+                    <p>أدخل كلمة المرور للوصول للوحة التحكم</p>
                 </div>
                 <div class="form-group">
-                    <label class="form-label"><i class="fas fa-key"></i> ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±</label>
-                    <input type="password" id="adminPass" class="form-input" placeholder="Ø£Ø¯Ø®Ù„ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±..." onkeypress="if(event.key==='Enter')login()">
-                    <p id="loginErr" class="text-danger hidden" style="margin-top:8px; font-size:0.9rem;"><i class="fas fa-exclamation-triangle"></i> ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± ØºÙŠØ± ØµØ­ÙŠØ­Ø©</p>
+                    <label class="form-label"><i class="fas fa-key"></i> كلمة المرور</label>
+                    <input type="password" id="adminPass" class="form-input" placeholder="أدخل كلمة المرور..." onkeypress="if(event.key==='Enter')login()">
+                    <p id="loginErr" class="text-danger hidden" style="margin-top:8px; font-size:0.9rem;"><i class="fas fa-exclamation-triangle"></i> كلمة المرور غير صحيحة</p>
                 </div>
                 <button onclick="login()" class="btn btn-primary" style="width:100%; padding:14px;">
-                    <i class="fas fa-sign-in-alt"></i> Ø¯Ø®ÙˆÙ„
+                    <i class="fas fa-sign-in-alt"></i> دخول
                 </button>
             </div>
         </div>
@@ -1100,7 +1100,7 @@ const renderAdminLogin = (app) => {
     };
 };
 
-// â”€â”€â”€ Admin Dashboard â”€â”€â”€
+// ─── Admin Dashboard ───
 const renderAdminDashboard = (app) => {
     if (sessionStorage.getItem('admin_logged_in') !== 'true') { window.location.hash = '#admin'; return; }
 
@@ -1118,7 +1118,7 @@ const renderAdminDashboard = (app) => {
     const todayStr = new Date().toDateString();
     const todayMeetings = db.config.slots.filter(s => s.status === 'booked' && new Date(s.dateTime).toDateString() === todayStr);
     if (todayMeetings.length > 0 && !sessionStorage.getItem('admin_notified')) {
-        setTimeout(() => showToast(`Ù„Ø¯ÙŠÙƒ ${todayMeetings.length} Ù…ÙŠØªÙŠÙ†Ø¬ Ø§Ù„ÙŠÙˆÙ…!`, 'warning'), 500);
+        setTimeout(() => showToast(`لديك ${todayMeetings.length} ميتينج اليوم!`, 'warning'), 500);
         sessionStorage.setItem('admin_notified', 'true');
     }
 
@@ -1128,12 +1128,12 @@ const renderAdminDashboard = (app) => {
         clientsHtml = `
             <div class="empty-state">
                 <i class="fas fa-users"></i>
-                <p>Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø¹Ù…Ù„Ø§Ø¡ Ø­ØªÙ‰ Ø§Ù„Ø¢Ù†<br><span class="text-muted">Ø£Ù†Ø´Ø¦ Ø±Ø§Ø¨Ø· Ø¹Ù…ÙŠÙ„ Ø¬Ø¯ÙŠØ¯ Ù„Ù„Ø¨Ø¯Ø¡</span></p>
+                <p>لا يوجد عملاء حتى الآن<br><span class="text-muted">أنشئ رابط عميل جديد للبدء</span></p>
             </div>`;
     } else {
         ids.forEach(id => {
             const c = db.clients[id];
-            const name = c.name || 'Ù„Ù… ÙŠØ³Ø¬Ù„ Ø¨Ø¹Ø¯';
+            const name = c.name || 'لم يسجل بعد';
             const initials = getInitials(c.name);
             const isUnregistered = !c.name;
             clientsHtml += `
@@ -1142,7 +1142,7 @@ const renderAdminDashboard = (app) => {
                         <div class="client-avatar">${isUnregistered ? '<i class="fas fa-user-clock" style="font-size:0.9rem;"></i>' : initials}</div>
                         <div>
                             <div class="client-name" ${isUnregistered ? 'style="color:var(--text-muted)"' : ''}>${name}</div>
-                            <div class="client-phone">${c.phone || 'â€”'}</div>
+                            <div class="client-phone">${c.phone || '—'}</div>
                         </div>
                     </div>
                     <div class="client-badges">${getStatusBadge(c)}</div>
@@ -1164,16 +1164,16 @@ const renderAdminDashboard = (app) => {
         slotsHtml = `
             <div class="empty-state">
                 <i class="fas fa-calendar-alt"></i>
-                <p>Ù„Ø§ ØªÙˆØ¬Ø¯ Ù…ÙˆØ§Ø¹ÙŠØ¯ Ù…Ø¶Ø§ÙØ© Ø­Ø§Ù„ÙŠØ§Ù‹</p>
+                <p>لا توجد مواعيد مضافة حالياً</p>
             </div>`;
     } else {
         Object.keys(slotsGrouped).forEach(date => {
             slotsGrouped[date].sort((a, b) => new Date(a.dateTime) - new Date(b.dateTime));
             let timesHtml = slotsGrouped[date].map(s => {
-                let clientName = '<span class="text-success"><i class="fas fa-check-circle"></i> Ù…ØªØ§Ø­</span>';
+                let clientName = '<span class="text-success"><i class="fas fa-check-circle"></i> متاح</span>';
                 if (s.status === 'booked') {
                     const c = Object.values(db.clients).find(x => x.phone === s.bookedByPhone || x.id === s.bookedByPhone);
-                    clientName = `<span class="text-danger"><i class="fas fa-user"></i> ${c && c.name ? c.name : 'Ù…Ø­Ø¬ÙˆØ²'}</span>`;
+                    clientName = `<span class="text-danger"><i class="fas fa-user"></i> ${c && c.name ? c.name : 'محجوز'}</span>`;
                 }
                 let delBtn = s.status === 'available' ? `<button class="btn btn-danger btn-sm" onclick="event.stopPropagation(); deleteSlot('${s.id}')"><i class="fas fa-trash"></i></button>` : '';
                 return `
@@ -1201,14 +1201,14 @@ const renderAdminDashboard = (app) => {
 
     // Questions list
     let questionsHtml = db.config.briefQuestions.map((q, i) => {
-        const typeLabels = { text: 'Ù†Øµ', file: 'Ù…Ù„Ù', radio: 'Ø§Ø®ØªÙŠØ§Ø±Ø§Øª' };
+        const typeLabels = { text: 'نص', file: 'ملف', radio: 'اختيارات' };
         return `
             <div style="display:flex; justify-content:space-between; align-items:center; padding:14px 16px; background:var(--bg-lighter); border-radius:var(--radius-sm); margin-bottom:8px; border:1px solid var(--border-color);">
                 <div style="flex:1;">
                     <span class="gold-text" style="font-weight:700;">${i + 1}.</span> ${q.text}
                     <div style="margin-top:4px;">
                         <span class="badge badge-info">${typeLabels[q.type] || q.type}</span>
-                        ${q.required ? '<span class="badge badge-warning">Ø¥Ø¬Ø¨Ø§Ø±ÙŠ</span>' : '<span class="badge" style="background:var(--bg-input); color:var(--text-muted);">Ø§Ø®ØªÙŠØ§Ø±ÙŠ</span>'}
+                        ${q.required ? '<span class="badge badge-warning">إجباري</span>' : '<span class="badge" style="background:var(--bg-input); color:var(--text-muted);">اختياري</span>'}
                     </div>
                 </div>
                 <button class="btn btn-danger btn-sm" onclick="deleteQuestion('${q.id}')"><i class="fas fa-trash"></i></button>
@@ -1219,12 +1219,12 @@ const renderAdminDashboard = (app) => {
         <div class="container">
             <!-- Header -->
             <div class="dashboard-header">
-                <h1><i class="fas fa-chart-line gold-text"></i> Ù„ÙˆØ­Ø© Ø§Ù„ØªØ­ÙƒÙ…</h1>
+                <h1><i class="fas fa-chart-line gold-text"></i> لوحة التحكم</h1>
                 <div class="header-actions">
-                    <button onclick="exportData()" class="btn btn-sm btn-ghost" title="ØªØµØ¯ÙŠØ± Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª"><i class="fas fa-download"></i></button>
-                    <button onclick="showSettingsModal()" class="btn btn-sm btn-ghost" title="Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª"><i class="fas fa-cog"></i></button>
+                    <button onclick="exportData()" class="btn btn-sm btn-ghost" title="تصدير البيانات"><i class="fas fa-download"></i></button>
+                    <button onclick="showSettingsModal()" class="btn btn-sm btn-ghost" title="الإعدادات"><i class="fas fa-cog"></i></button>
                     <button onclick="window.location.hash='#start'; sessionStorage.removeItem('admin_logged_in');" class="btn btn-sm btn-danger">
-                        <i class="fas fa-sign-out-alt"></i> Ø®Ø±ÙˆØ¬
+                        <i class="fas fa-sign-out-alt"></i> خروج
                     </button>
                 </div>
             </div>
@@ -1234,43 +1234,43 @@ const renderAdminDashboard = (app) => {
                 <div class="stat-card">
                     <div class="stat-icon gold"><i class="fas fa-users"></i></div>
                     <div class="stat-number">${totalClients}</div>
-                    <div class="stat-label">Ø¥Ø¬Ù…Ø§Ù„ÙŠ Ø§Ù„Ø¹Ù…Ù„Ø§Ø¡</div>
+                    <div class="stat-label">إجمالي العملاء</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon blue"><i class="fas fa-clipboard-check"></i></div>
                     <div class="stat-number">${briefsDone}</div>
-                    <div class="stat-label">Ø£ÙƒÙ…Ù„ÙˆØ§ Ø§Ù„Ø¨Ø±ÙŠÙ</div>
+                    <div class="stat-label">أكملوا البريف</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon green"><i class="fas fa-calendar-check"></i></div>
                     <div class="stat-number">${meetingsBooked}</div>
-                    <div class="stat-label">Ø­Ø¬Ø²ÙˆØ§ Ù…ÙŠØªÙŠÙ†Ø¬</div>
+                    <div class="stat-label">حجزوا ميتينج</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon red"><i class="fas fa-file-signature"></i></div>
                     <div class="stat-number">${contractsSigned}</div>
-                    <div class="stat-label">ÙˆÙ‚Ù‘Ø¹ÙˆØ§ Ø§Ù„Ø¹Ù‚Ø¯</div>
+                    <div class="stat-label">وقّعوا العقد</div>
                 </div>
             </div>
 
             ${pendingBriefs > 0 ? `<div style="background:var(--gold-dim); border:1px solid var(--border-active); border-radius:var(--radius-sm); padding:14px 20px; margin-bottom:20px; display:flex; align-items:center; gap:10px;">
                 <i class="fas fa-bell gold-text"></i>
-                <span>${pendingBriefs} Ø¹Ù…ÙŠÙ„ Ø³Ø¬Ù‘Ù„ Ø¨ÙŠØ§Ù†Ø§ØªÙ‡ ÙˆÙ„Ù… ÙŠÙƒÙ…Ù„ Ø§Ù„Ø¨Ø±ÙŠÙ Ø¨Ø¹Ø¯</span>
+                <span>${pendingBriefs} عميل سجّل بياناته ولم يكمل البريف بعد</span>
             </div>` : ''}
 
             <!-- Tabs -->
             <div class="tabs">
                 <button class="tab-btn active" onclick="switchDashTab('clients')" id="dtab_clients">
-                    <i class="fas fa-users"></i> Ø§Ù„Ø¹Ù…Ù„Ø§Ø¡ <span class="badge-count">${totalClients}</span>
+                    <i class="fas fa-users"></i> العملاء <span class="badge-count">${totalClients}</span>
                 </button>
                 <button class="tab-btn" onclick="switchDashTab('meetings')" id="dtab_meetings">
-                    <i class="fas fa-calendar-alt"></i> Ø§Ù„Ù…ÙˆØ§Ø¹ÙŠØ¯
+                    <i class="fas fa-calendar-alt"></i> المواعيد
                 </button>
                 <button class="tab-btn" onclick="switchDashTab('contract')" id="dtab_contract">
-                    <i class="fas fa-file-contract"></i> Ø§Ù„Ø¹Ù‚Ø¯
+                    <i class="fas fa-file-contract"></i> العقد
                 </button>
                 <button class="tab-btn" onclick="switchDashTab('questions')" id="dtab_questions">
-                    <i class="fas fa-question-circle"></i> Ø§Ù„Ø£Ø³Ø¦Ù„Ø©
+                    <i class="fas fa-question-circle"></i> الأسئلة
                 </button>
             </div>
 
@@ -1278,11 +1278,11 @@ const renderAdminDashboard = (app) => {
             <div id="dash_clients">
                 <div class="card">
                     <div class="card-header">
-                        <h2 class="gold-text" style="margin:0;"><i class="fas fa-address-book"></i> Ù…Ù„ÙØ§Øª Ø§Ù„Ø¹Ù…Ù„Ø§Ø¡</h2>
-                        <button onclick="generateClientLink()" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i> Ø¥Ù†Ø´Ø§Ø¡ Ø±Ø§Ø¨Ø· Ø¹Ù…ÙŠÙ„</button>
+                        <h2 class="gold-text" style="margin:0;"><i class="fas fa-address-book"></i> ملفات العملاء</h2>
+                        <button onclick="generateClientLink()" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i> إنشاء رابط عميل</button>
                     </div>
                     <div class="search-bar">
-                        <input type="text" placeholder="Ø¨Ø­Ø« Ø¨Ø§Ù„Ø§Ø³Ù… Ø£Ùˆ Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ..." onkeyup="filterClients(this.value)">
+                        <input type="text" placeholder="بحث بالاسم أو رقم الهاتف..." onkeyup="filterClients(this.value)">
                         <i class="fas fa-search"></i>
                     </div>
                     <div id="clientsList">${clientsHtml}</div>
@@ -1293,18 +1293,18 @@ const renderAdminDashboard = (app) => {
             <div id="dash_meetings" class="hidden">
                 <div class="card">
                     <div class="card-header">
-                        <h2 class="gold-text" style="margin:0;"><i class="fas fa-calendar-plus"></i> Ø¥Ø¯Ø§Ø±Ø© Ù…ÙˆØ§Ø¹ÙŠØ¯ Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬</h2>
+                        <h2 class="gold-text" style="margin:0;"><i class="fas fa-calendar-plus"></i> إدارة مواعيد الميتينج</h2>
                     </div>
                     <div style="display:grid; grid-template-columns: 1fr 1fr auto; gap:12px; align-items:end; margin-bottom:24px; background:var(--bg-lighter); padding:20px; border-radius:var(--radius-sm);">
                         <div>
-                            <label class="form-label" style="font-size:0.85rem;"><i class="fas fa-clock"></i> Ø§Ù„ØªØ§Ø±ÙŠØ® ÙˆØ§Ù„ÙˆÙ‚Øª</label>
+                            <label class="form-label" style="font-size:0.85rem;"><i class="fas fa-clock"></i> التاريخ والوقت</label>
                             <input type="datetime-local" id="newSlotTime" class="form-input">
                         </div>
                         <div>
-                            <label class="form-label" style="font-size:0.85rem;"><i class="fas fa-link"></i> Ø±Ø§Ø¨Ø· Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬</label>
+                            <label class="form-label" style="font-size:0.85rem;"><i class="fas fa-link"></i> رابط الميتينج</label>
                             <input type="url" id="newSlotLink" class="form-input" placeholder="https://meet.google.com/...">
                         </div>
-                        <button onclick="addSlot()" class="btn btn-primary" style="height:46px;"><i class="fas fa-plus"></i> Ø¥Ø¶Ø§ÙØ©</button>
+                        <button onclick="addSlot()" class="btn btn-primary" style="height:46px;"><i class="fas fa-plus"></i> إضافة</button>
                     </div>
                     <div>${slotsHtml}</div>
                 </div>
@@ -1314,17 +1314,17 @@ const renderAdminDashboard = (app) => {
             <div id="dash_contract" class="hidden">
                 <div class="card">
                     <div class="card-header">
-                        <h2 class="gold-text" style="margin:0;"><i class="fas fa-file-contract"></i> Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø¹Ù‚Ø¯</h2>
+                        <h2 class="gold-text" style="margin:0;"><i class="fas fa-file-contract"></i> إعدادات العقد</h2>
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Ø§Ø³Ù…Ùƒ Ø£Ùˆ Ø§Ø³Ù… ÙˆÙƒØ§Ù„ØªÙƒ (Ø§Ù„Ø·Ø±Ù Ø§Ù„Ø«Ø§Ù†ÙŠ)</label>
+                        <label class="form-label">اسمك أو اسم وكالتك (الطرف الثاني)</label>
                         <input type="text" id="adminNameInput" class="form-input" value="${db.config.adminName}">
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Ø¨Ù†ÙˆØ¯ Ø§Ù„Ø¹Ù‚Ø¯ Ø§Ù„Ø£Ø³Ø§Ø³ÙŠØ©</label>
+                        <label class="form-label">بنود العقد الأساسية</label>
                         <textarea id="contractTermsInput" class="form-input form-textarea" style="min-height:250px;">${db.config.contractTerms}</textarea>
                     </div>
-                    <button onclick="saveContractSettings()" class="btn btn-primary"><i class="fas fa-save"></i> Ø­ÙØ¸ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª</button>
+                    <button onclick="saveContractSettings()" class="btn btn-primary"><i class="fas fa-save"></i> حفظ الإعدادات</button>
                 </div>
             </div>
 
@@ -1332,8 +1332,8 @@ const renderAdminDashboard = (app) => {
             <div id="dash_questions" class="hidden">
                 <div class="card">
                     <div class="card-header">
-                        <h2 class="gold-text" style="margin:0;"><i class="fas fa-list-ol"></i> Ø£Ø³Ø¦Ù„Ø© Ø§Ù„Ø¨Ø±ÙŠÙ</h2>
-                        <button onclick="showAddQuestionModal()" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i> Ø¥Ø¶Ø§ÙØ© Ø³Ø¤Ø§Ù„</button>
+                        <h2 class="gold-text" style="margin:0;"><i class="fas fa-list-ol"></i> أسئلة البريف</h2>
+                        <button onclick="showAddQuestionModal()" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i> إضافة سؤال</button>
                     </div>
                     <div>${questionsHtml}</div>
                 </div>
@@ -1341,7 +1341,7 @@ const renderAdminDashboard = (app) => {
         </div>
     `;
 
-    // â”€â”€â”€ Dashboard Functions â”€â”€â”€
+    // ─── Dashboard Functions ───
     window.switchDashTab = (tab) => {
         ['clients', 'meetings', 'contract', 'questions'].forEach(t => {
             const el = document.getElementById('dash_' + t);
@@ -1373,18 +1373,18 @@ const renderAdminDashboard = (app) => {
         saveDB();
         const link = window.location.origin + window.location.pathname + '#client/' + id;
 
-        showModal('ØªÙ… Ø¥Ù†Ø´Ø§Ø¡ Ø±Ø§Ø¨Ø· Ø§Ù„Ø¹Ù…ÙŠÙ„!', `
-            <p style="margin-bottom:16px;">Ø§Ù†Ø³Ø® Ø§Ù„Ø±Ø§Ø¨Ø· Ø§Ù„ØªØ§Ù„ÙŠ ÙˆØ£Ø±Ø³Ù„Ù‡ Ù„Ù„Ø¹Ù…ÙŠÙ„:</p>
+        showModal('تم إنشاء رابط العميل!', `
+            <p style="margin-bottom:16px;">انسخ الرابط التالي وأرسله للعميل:</p>
             <div style="background:var(--bg-lighter); padding:14px; border-radius:var(--radius-sm); direction:ltr; word-break:break-all; font-size:0.9rem; border:1px solid var(--border-active); margin-bottom:16px;">
                 <code id="clientLinkText">${link}</code>
             </div>
-            <button class="btn btn-primary" style="width:100%;" onclick="navigator.clipboard.writeText('${link}'); showToast('ØªÙ… Ù†Ø³Ø® Ø§Ù„Ø±Ø§Ø¨Ø·!', 'success');">
-                <i class="fas fa-copy"></i> Ù†Ø³Ø® Ø§Ù„Ø±Ø§Ø¨Ø·
+            <button class="btn btn-primary" style="width:100%;" onclick="navigator.clipboard.writeText('${link}'); showToast('تم نسخ الرابط!', 'success');">
+                <i class="fas fa-copy"></i> نسخ الرابط
             </button>
             ${db.config.whatsapp ? '' : `
             <div style="margin-top:12px;">
-                <a href="https://wa.me/?text=${encodeURIComponent('Ù…Ø±Ø­Ø¨Ø§Ù‹! Ø¨Ø±Ø¬Ø§Ø¡ ØªØ¹Ø¨Ø¦Ø© Ø§Ù„Ø¨Ø±ÙŠÙ Ù…Ù† Ø®Ù„Ø§Ù„ Ø§Ù„Ø±Ø§Ø¨Ø· Ø§Ù„ØªØ§Ù„ÙŠ:\n' + link)}" target="_blank" class="btn" style="width:100%; justify-content:center; background:rgba(37,211,102,0.15); color:#25d366; border-color:#25d366;">
-                    <i class="fab fa-whatsapp"></i> Ø¥Ø±Ø³Ø§Ù„ Ø¹Ø¨Ø± ÙˆØ§ØªØ³Ø§Ø¨
+                <a href="https://wa.me/?text=${encodeURIComponent('مرحباً! برجاء تعبئة البريف من خلال الرابط التالي:\n' + link)}" target="_blank" class="btn" style="width:100%; justify-content:center; background:rgba(37,211,102,0.15); color:#25d366; border-color:#25d366;">
+                    <i class="fab fa-whatsapp"></i> إرسال عبر واتساب
                 </a>
             </div>`}
         `);
@@ -1395,40 +1395,40 @@ const renderAdminDashboard = (app) => {
         db.config.adminName = document.getElementById('adminNameInput').value;
         db.config.contractTerms = document.getElementById('contractTermsInput').value;
         saveDB();
-        showToast('ØªÙ… Ø­ÙØ¸ Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø¹Ù‚Ø¯ Ø¨Ù†Ø¬Ø§Ø­!', 'success');
+        showToast('تم حفظ إعدادات العقد بنجاح!', 'success');
     };
 
     window.showAddQuestionModal = () => {
-        showModal('Ø¥Ø¶Ø§ÙØ© Ø³Ø¤Ø§Ù„ Ø¬Ø¯ÙŠØ¯', `
+        showModal('إضافة سؤال جديد', `
             <div class="form-group">
-                <label class="form-label">Ù†ÙˆØ¹ Ø§Ù„Ø³Ø¤Ø§Ù„</label>
+                <label class="form-label">نوع السؤال</label>
                 <select id="mqType" class="form-input form-select">
-                    <option value="text">Ø¥Ø¬Ø§Ø¨Ø© Ù†ØµÙŠØ©</option>
-                    <option value="file">Ø±ÙØ¹ Ù…Ù„Ù/ØµÙˆØ±Ø©</option>
-                    <option value="radio">Ø§Ø®ØªÙŠØ§Ø±Ø§Øª Ù…ØªØ¹Ø¯Ø¯Ø©</option>
+                    <option value="text">إجابة نصية</option>
+                    <option value="file">رفع ملف/صورة</option>
+                    <option value="radio">اختيارات متعددة</option>
                 </select>
             </div>
             <div class="form-group">
-                <label class="form-label">Ù†Øµ Ø§Ù„Ø³Ø¤Ø§Ù„</label>
-                <input type="text" id="mqText" class="form-input" placeholder="Ø§ÙƒØªØ¨ Ø§Ù„Ø³Ø¤Ø§Ù„ Ù‡Ù†Ø§...">
+                <label class="form-label">نص السؤال</label>
+                <input type="text" id="mqText" class="form-input" placeholder="اكتب السؤال هنا...">
             </div>
             <div class="form-group hidden" id="mqOptionsGroup">
-                <label class="form-label">Ø§Ù„Ø§Ø®ØªÙŠØ§Ø±Ø§Øª (Ù…ÙØµÙˆÙ„Ø© Ø¨ÙØ§ØµÙ„Ø©)</label>
-                <input type="text" id="mqOptions" class="form-input" placeholder="Ø§Ø®ØªÙŠØ§Ø± 1, Ø§Ø®ØªÙŠØ§Ø± 2, Ø§Ø®ØªÙŠØ§Ø± 3">
+                <label class="form-label">الاختيارات (مفصولة بفاصلة)</label>
+                <input type="text" id="mqOptions" class="form-input" placeholder="اختيار 1, اختيار 2, اختيار 3">
             </div>
             <div class="form-group">
                 <label style="display:flex; align-items:center; gap:8px; cursor:pointer;">
-                    <input type="checkbox" id="mqRequired" checked> Ø³Ø¤Ø§Ù„ Ø¥Ø¬Ø¨Ø§Ø±ÙŠ
+                    <input type="checkbox" id="mqRequired" checked> سؤال إجباري
                 </label>
             </div>
         `, () => {
             const text = document.getElementById('mqText').value;
-            if (!text) return showToast('ÙŠØ¬Ø¨ ÙƒØªØ§Ø¨Ø© Ù†Øµ Ø§Ù„Ø³Ø¤Ø§Ù„!', 'error');
+            if (!text) return showToast('يجب كتابة نص السؤال!', 'error');
             const type = document.getElementById('mqType').value;
             let options = [];
             if (type === 'radio') {
                 options = document.getElementById('mqOptions').value.split(',').map(o => o.trim()).filter(Boolean);
-                if (options.length < 2) return showToast('ÙŠØ¬Ø¨ Ø¥Ø¶Ø§ÙØ© Ø§Ø®ØªÙŠØ§Ø±ÙŠÙ† Ø¹Ù„Ù‰ Ø§Ù„Ø£Ù‚Ù„!', 'error');
+                if (options.length < 2) return showToast('يجب إضافة اختيارين على الأقل!', 'error');
             }
             db.config.briefQuestions.push({
                 id: 'q_' + Date.now(), type, text,
@@ -1436,7 +1436,7 @@ const renderAdminDashboard = (app) => {
                 options
             });
             saveDB();
-            showToast('ØªÙ… Ø¥Ø¶Ø§ÙØ© Ø§Ù„Ø³Ø¤Ø§Ù„ Ø¨Ù†Ø¬Ø§Ø­!', 'success');
+            showToast('تم إضافة السؤال بنجاح!', 'success');
             renderAdminDashboard(document.getElementById('app'));
         });
 
@@ -1447,10 +1447,10 @@ const renderAdminDashboard = (app) => {
     };
 
     window.deleteQuestion = (id) => {
-        showModal('ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø­Ø°Ù', '<p>Ù‡Ù„ Ø£Ù†Øª Ù…ØªØ£ÙƒØ¯ Ù…Ù† Ø­Ø°Ù Ù‡Ø°Ø§ Ø§Ù„Ø³Ø¤Ø§Ù„ØŸ</p>', () => {
+        showModal('تأكيد الحذف', '<p>هل أنت متأكد من حذف هذا السؤال؟</p>', () => {
             db.config.briefQuestions = db.config.briefQuestions.filter(q => q.id !== id);
             saveDB();
-            showToast('ØªÙ… Ø­Ø°Ù Ø§Ù„Ø³Ø¤Ø§Ù„', 'success');
+            showToast('تم حذف السؤال', 'success');
             renderAdminDashboard(document.getElementById('app'));
         });
     };
@@ -1458,92 +1458,92 @@ const renderAdminDashboard = (app) => {
     window.addSlot = () => {
         const time = document.getElementById('newSlotTime').value;
         const link = document.getElementById('newSlotLink').value;
-        if (!time) return showToast('Ø¨Ø±Ø¬Ø§Ø¡ ØªØ­Ø¯ÙŠØ¯ Ø§Ù„ÙˆÙ‚Øª', 'error');
-        if (!link) return showToast('Ø¨Ø±Ø¬Ø§Ø¡ Ø¥Ø¶Ø§ÙØ© Ø±Ø§Ø¨Ø· Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬', 'error');
+        if (!time) return showToast('برجاء تحديد الوقت', 'error');
+        if (!link) return showToast('برجاء إضافة رابط الميتينج', 'error');
         db.config.slots.push({ id: 'slot_' + Date.now(), dateTime: time, link, status: 'available', bookedByPhone: null });
         saveDB();
-        showToast('ØªÙ… Ø¥Ø¶Ø§ÙØ© Ø§Ù„Ù…ÙŠØ¹Ø§Ø¯ Ø¨Ù†Ø¬Ø§Ø­!', 'success');
+        showToast('تم إضافة الميعاد بنجاح!', 'success');
         renderAdminDashboard(document.getElementById('app'));
         switchDashTab('meetings');
     };
 
     window.deleteSlot = (id) => {
-        showModal('ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø­Ø°Ù', '<p>Ù‡Ù„ Ø£Ù†Øª Ù…ØªØ£ÙƒØ¯ Ù…Ù† Ø­Ø°Ù Ù‡Ø°Ø§ Ø§Ù„Ù…ÙŠØ¹Ø§Ø¯ØŸ</p>', () => {
+        showModal('تأكيد الحذف', '<p>هل أنت متأكد من حذف هذا الميعاد؟</p>', () => {
             db.config.slots = db.config.slots.filter(s => s.id !== id);
             saveDB();
-            showToast('ØªÙ… Ø­Ø°Ù Ø§Ù„Ù…ÙŠØ¹Ø§Ø¯', 'success');
+            showToast('تم حذف الميعاد', 'success');
             renderAdminDashboard(document.getElementById('app'));
             switchDashTab('meetings');
         });
     };
 
     window.showSettingsModal = () => {
-        showModal('Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ù†Ø¸Ø§Ù…', `
+        showModal('إعدادات النظام', `
             <div class="form-group">
-                <label class="form-label"><i class="fas fa-key"></i> ØªØºÙŠÙŠØ± ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±</label>
-                <input type="password" id="setNewPass" class="form-input" placeholder="ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ± Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø©">
+                <label class="form-label"><i class="fas fa-key"></i> تغيير كلمة المرور</label>
+                <input type="password" id="setNewPass" class="form-input" placeholder="كلمة المرور الجديدة">
             </div>
             <div class="form-group">
-                <label class="form-label"><i class="fab fa-whatsapp"></i> Ø±Ù‚Ù… ÙˆØ§ØªØ³Ø§Ø¨ (Ø§Ø®ØªÙŠØ§Ø±ÙŠ)</label>
-                <input type="text" id="setWhatsapp" class="form-input" value="${db.config.whatsapp}" placeholder="Ù…Ø«Ø§Ù„: 201234567890">
+                <label class="form-label"><i class="fab fa-whatsapp"></i> رقم واتساب (اختياري)</label>
+                <input type="text" id="setWhatsapp" class="form-input" value="${db.config.whatsapp}" placeholder="مثال: 201234567890">
             </div>
         `, () => {
             const np = document.getElementById('setNewPass').value;
-            if (np) { db.config.adminPassword = np; showToast('ØªÙ… ØªØºÙŠÙŠØ± ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±', 'success'); }
+            if (np) { db.config.adminPassword = np; showToast('تم تغيير كلمة المرور', 'success'); }
             db.config.whatsapp = document.getElementById('setWhatsapp').value;
             saveDB();
-            showToast('ØªÙ… Ø­ÙØ¸ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª', 'success');
+            showToast('تم حفظ الإعدادات', 'success');
         });
     };
 
     window.exportData = () => {
-        let csv = 'Ø§Ù„Ø§Ø³Ù…,Ø§Ù„Ù‡Ø§ØªÙ,Ø§Ù„Ø¨Ø±ÙŠÙ,Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬,Ø§Ù„Ø¹Ù‚Ø¯\n';
+        let csv = 'الاسم,الهاتف,البريف,الميتينج,العقد\n';
         Object.values(db.clients).forEach(c => {
-            csv += `"${c.name || ''}","${c.phone || ''}","${c.briefAnswers ? 'Ù†Ø¹Ù…' : 'Ù„Ø§'}","${c.meetingSlotId ? 'Ù†Ø¹Ù…' : 'Ù„Ø§'}","${c.contractSigned ? 'Ù†Ø¹Ù…' : 'Ù„Ø§'}"\n`;
+            csv += `"${c.name || ''}","${c.phone || ''}","${c.briefAnswers ? 'نعم' : 'لا'}","${c.meetingSlotId ? 'نعم' : 'لا'}","${c.contractSigned ? 'نعم' : 'لا'}"\n`;
         });
         const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url; a.download = 'clients_export.csv'; a.click();
         URL.revokeObjectURL(url);
-        showToast('ØªÙ… ØªØµØ¯ÙŠØ± Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª Ø¨Ù†Ø¬Ø§Ø­!', 'success');
+        showToast('تم تصدير البيانات بنجاح!', 'success');
     };
 };
 
-// â”€â”€â”€ Admin Client View â”€â”€â”€
+// ─── Admin Client View ───
 const renderAdminClientView = (app, id) => {
     if (sessionStorage.getItem('admin_logged_in') !== 'true') return navigate();
     const client = db.clients[id];
-    if (!client) { showToast('Ø§Ù„Ø¹Ù…ÙŠÙ„ ØºÙŠØ± Ù…ÙˆØ¬ÙˆØ¯', 'error'); window.location.hash = '#dashboard'; return; }
+    if (!client) { showToast('العميل غير موجود', 'error'); window.location.hash = '#dashboard'; return; }
 
-    const nameDisplay = client.name || 'Ù„Ù… ÙŠØ³Ø¬Ù„ Ø¨ÙŠØ§Ù†Ø§ØªÙ‡ Ø¨Ø¹Ø¯';
+    const nameDisplay = client.name || 'لم يسجل بياناته بعد';
     const initials = getInitials(client.name);
 
     // Answers
-    let answersHtml = `<div class="empty-state"><i class="fas fa-clipboard"></i><p>Ø§Ù„Ø¹Ù…ÙŠÙ„ Ù„Ù… ÙŠØ±Ø³Ù„ Ø§Ù„Ø¨Ø±ÙŠÙ Ø¨Ø¹Ø¯</p></div>`;
+    let answersHtml = `<div class="empty-state"><i class="fas fa-clipboard"></i><p>العميل لم يرسل البريف بعد</p></div>`;
     if (client.briefAnswers) {
         answersHtml = db.config.briefQuestions.map(q => {
             let val = client.briefAnswers[q.id];
-            let displayVal = val || '<span class="text-muted">Ù„Ù… ÙŠØ¬Ø¨</span>';
+            let displayVal = val || '<span class="text-muted">لم يجب</span>';
             if (val && val.startsWith('data:image')) {
-                displayVal = `<img src="${val}" alt="Ù…Ø±ÙÙ‚">`;
+                displayVal = `<img src="${val}" alt="مرفق">`;
             } else if (val && val.startsWith('data:')) {
-                displayVal = `<a href="${val}" download="Ù…Ù„Ù_Ù…Ø±ÙÙ‚" class="btn btn-sm"><i class="fas fa-download"></i> ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ù…Ù„Ù</a>`;
+                displayVal = `<a href="${val}" download="ملف_مرفق" class="btn btn-sm"><i class="fas fa-download"></i> تحميل الملف</a>`;
             }
             return `<div class="answer-item"><div class="q-text"><i class="fas fa-question-circle"></i> ${q.text}</div><div class="a-text">${displayVal}</div></div>`;
         }).join('');
     }
 
     // Meeting
-    let meetingHtml = '<p class="text-muted"><i class="fas fa-calendar-times"></i> Ù„Ù… ÙŠØ­Ø¬Ø² Ù…ÙŠØªÙŠÙ†Ø¬ Ø¨Ø¹Ø¯</p>';
+    let meetingHtml = '<p class="text-muted"><i class="fas fa-calendar-times"></i> لم يحجز ميتينج بعد</p>';
     if (client.meetingSlotId) {
         const s = db.config.slots.find(x => x.id === client.meetingSlotId);
         if (s) {
             meetingHtml = `
                 <div style="display:flex; gap:20px; flex-wrap:wrap;">
                     <div style="flex:1;">
-                        <p><strong><i class="fas fa-calendar"></i> Ø§Ù„Ù…ÙˆØ¹Ø¯:</strong> <span class="text-success">${formatDateTime(s.dateTime)}</span></p>
-                        <p style="margin-top:8px;"><strong><i class="fas fa-link"></i> Ø§Ù„Ø±Ø§Ø¨Ø·:</strong> <a href="${s.link}" target="_blank">${s.link}</a></p>
+                        <p><strong><i class="fas fa-calendar"></i> الموعد:</strong> <span class="text-success">${formatDateTime(s.dateTime)}</span></p>
+                        <p style="margin-top:8px;"><strong><i class="fas fa-link"></i> الرابط:</strong> <a href="${s.link}" target="_blank">${s.link}</a></p>
                     </div>
                 </div>`;
         }
@@ -1552,13 +1552,13 @@ const renderAdminClientView = (app, id) => {
     // Contract
     let contractHtml = '';
     if (client.contractSigned) {
-        contractHtml = '<div style="display:flex; align-items:center; gap:10px;"><i class="fas fa-check-circle text-success" style="font-size:1.5rem;"></i><span class="text-success" style="font-weight:700; font-size:1.1rem;">ØªÙ… ØªÙˆÙ‚ÙŠØ¹ Ø§Ù„Ø¹Ù‚Ø¯ Ø¨Ù†Ø¬Ø§Ø­!</span></div>';
+        contractHtml = '<div style="display:flex; align-items:center; gap:10px;"><i class="fas fa-check-circle text-success" style="font-size:1.5rem;"></i><span class="text-success" style="font-weight:700; font-size:1.1rem;">تم توقيع العقد بنجاح!</span></div>';
     } else if (client.contractRevealed) {
-        contractHtml = '<div style="display:flex; align-items:center; gap:10px;"><i class="fas fa-hourglass-half gold-text" style="font-size:1.5rem;"></i><span class="gold-text" style="font-weight:700;">Ø§Ù„Ø¹Ù‚Ø¯ Ø¸Ø§Ù‡Ø± Ù„Ù„Ø¹Ù…ÙŠÙ„ â€” Ø¨Ø§Ù†ØªØ¸Ø§Ø± ØªÙˆÙ‚ÙŠØ¹Ù‡</span></div>';
+        contractHtml = '<div style="display:flex; align-items:center; gap:10px;"><i class="fas fa-hourglass-half gold-text" style="font-size:1.5rem;"></i><span class="gold-text" style="font-weight:700;">العقد ظاهر للعميل — بانتظار توقيعه</span></div>';
     } else {
         contractHtml = `
-            <p class="text-muted" style="margin-bottom:16px;">Ø§Ù„Ø¹Ù‚Ø¯ Ù…Ø®ÙÙŠ Ø¹Ù† Ø§Ù„Ø¹Ù…ÙŠÙ„ Ø­Ø§Ù„ÙŠØ§Ù‹</p>
-            <button onclick="revealContract('${id}')" class="btn btn-primary"><i class="fas fa-eye"></i> Ø¥Ø¸Ù‡Ø§Ø± Ø§Ù„Ø¹Ù‚Ø¯ Ù„Ù„Ø¹Ù…ÙŠÙ„ Ø§Ù„Ø¢Ù†</button>
+            <p class="text-muted" style="margin-bottom:16px;">العقد مخفي عن العميل حالياً</p>
+            <button onclick="revealContract('${id}')" class="btn btn-primary"><i class="fas fa-eye"></i> إظهار العقد للعميل الآن</button>
         `;
     }
 
@@ -1568,8 +1568,8 @@ const renderAdminClientView = (app, id) => {
     app.innerHTML = `
         <div class="container">
             <div class="no-print" style="margin-bottom:20px; display:flex; justify-content:space-between; align-items:center;">
-                <button onclick="window.location.hash='#dashboard'" class="btn btn-ghost"><i class="fas fa-arrow-right"></i> Ø§Ù„Ø¹ÙˆØ¯Ø© Ù„Ù„ÙˆØ­Ø© Ø§Ù„ØªØ­ÙƒÙ…</button>
-                <button onclick="deleteClientFromProfile('${id}')" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> Ø­Ø°Ù Ø§Ù„Ø¹Ù…ÙŠÙ„</button>
+                <button onclick="window.location.hash='#dashboard'" class="btn btn-ghost"><i class="fas fa-arrow-right"></i> العودة للوحة التحكم</button>
+                <button onclick="deleteClientFromProfile('${id}')" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i> حذف العميل</button>
             </div>
 
             <!-- Profile Header -->
@@ -1578,27 +1578,27 @@ const renderAdminClientView = (app, id) => {
                     <div class="profile-avatar">${client.name ? initials : '<i class="fas fa-user"></i>'}</div>
                     <div style="flex:1;">
                         <h1 style="margin:0; font-size:1.5rem;" ${!client.name ? 'class="text-muted"' : ''}>${nameDisplay}</h1>
-                        <p class="text-muted" style="margin:4px 0;">${client.phone || 'Ù„Ø§ ÙŠÙˆØ¬Ø¯ Ø±Ù‚Ù… Ù‡Ø§ØªÙ'}</p>
+                        <p class="text-muted" style="margin:4px 0;">${client.phone || 'لا يوجد رقم هاتف'}</p>
                         ${getStatusBadge(client)}
                     </div>
                     <div class="no-print">
-                        <a href="#client/${id}" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> ØµÙØ­Ø© Ø§Ù„Ø¹Ù…ÙŠÙ„</a>
+                        <a href="#client/${id}" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> صفحة العميل</a>
                     </div>
                 </div>
             </div>
 
             <!-- Tabs -->
             <div class="tabs no-print">
-                <button class="tab-btn active" onclick="switchClientTab('brief')" id="ctab_brief"><i class="fas fa-clipboard-list"></i> Ø§Ù„Ø¨Ø±ÙŠÙ</button>
-                <button class="tab-btn" onclick="switchClientTab('meeting')" id="ctab_meeting"><i class="fas fa-video"></i> Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬</button>
-                <button class="tab-btn" onclick="switchClientTab('contract')" id="ctab_contract"><i class="fas fa-file-signature"></i> Ø§Ù„Ø¹Ù‚Ø¯</button>
-                <button class="tab-btn" onclick="switchClientTab('notes')" id="ctab_notes"><i class="fas fa-sticky-note"></i> Ù…Ù„Ø§Ø­Ø¸Ø§Øª</button>
+                <button class="tab-btn active" onclick="switchClientTab('brief')" id="ctab_brief"><i class="fas fa-clipboard-list"></i> البريف</button>
+                <button class="tab-btn" onclick="switchClientTab('meeting')" id="ctab_meeting"><i class="fas fa-video"></i> الميتينج</button>
+                <button class="tab-btn" onclick="switchClientTab('contract')" id="ctab_contract"><i class="fas fa-file-signature"></i> العقد</button>
+                <button class="tab-btn" onclick="switchClientTab('notes')" id="ctab_notes"><i class="fas fa-sticky-note"></i> ملاحظات</button>
             </div>
 
             <!-- Brief -->
             <div id="cview_brief">
                 <div class="card">
-                    <h2 class="gold-text" style="margin-bottom:20px;"><i class="fas fa-clipboard-check"></i> Ø¥Ø¬Ø§Ø¨Ø§Øª Ø§Ù„Ø¨Ø±ÙŠÙ</h2>
+                    <h2 class="gold-text" style="margin-bottom:20px;"><i class="fas fa-clipboard-check"></i> إجابات البريف</h2>
                     ${answersHtml}
                 </div>
             </div>
@@ -1606,7 +1606,7 @@ const renderAdminClientView = (app, id) => {
             <!-- Meeting -->
             <div id="cview_meeting" class="hidden">
                 <div class="card">
-                    <h2 class="gold-text" style="margin-bottom:20px;"><i class="fas fa-calendar-check"></i> Ø­Ø§Ù„Ø© Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬</h2>
+                    <h2 class="gold-text" style="margin-bottom:20px;"><i class="fas fa-calendar-check"></i> حالة الميتينج</h2>
                     ${meetingHtml}
                 </div>
             </div>
@@ -1614,7 +1614,7 @@ const renderAdminClientView = (app, id) => {
             <!-- Contract -->
             <div id="cview_contract" class="hidden">
                 <div class="card">
-                    <h2 class="gold-text" style="margin-bottom:20px;"><i class="fas fa-file-contract"></i> Ø­Ø§Ù„Ø© Ø§Ù„Ø¹Ù‚Ø¯</h2>
+                    <h2 class="gold-text" style="margin-bottom:20px;"><i class="fas fa-file-contract"></i> حالة العقد</h2>
                     ${contractHtml}
                 </div>
             </div>
@@ -1622,9 +1622,9 @@ const renderAdminClientView = (app, id) => {
             <!-- Notes -->
             <div id="cview_notes" class="hidden">
                 <div class="card">
-                    <h2 class="gold-text" style="margin-bottom:20px;"><i class="fas fa-sticky-note"></i> Ù…Ù„Ø§Ø­Ø¸Ø§Øª Ø®Ø§ØµØ©</h2>
-                    <textarea id="clientNotes" class="form-input form-textarea" placeholder="Ø§ÙƒØªØ¨ Ù…Ù„Ø§Ø­Ø¸Ø§ØªÙƒ Ø¹Ù† Ù‡Ø°Ø§ Ø§Ù„Ø¹Ù…ÙŠÙ„ Ù‡Ù†Ø§...">${notesVal}</textarea>
-                    <button onclick="saveClientNotes('${id}')" class="btn btn-primary" style="margin-top:16px;"><i class="fas fa-save"></i> Ø­ÙØ¸ Ø§Ù„Ù…Ù„Ø§Ø­Ø¸Ø§Øª</button>
+                    <h2 class="gold-text" style="margin-bottom:20px;"><i class="fas fa-sticky-note"></i> ملاحظات خاصة</h2>
+                    <textarea id="clientNotes" class="form-input form-textarea" placeholder="اكتب ملاحظاتك عن هذا العميل هنا...">${notesVal}</textarea>
+                    <button onclick="saveClientNotes('${id}')" class="btn btn-primary" style="margin-top:16px;"><i class="fas fa-save"></i> حفظ الملاحظات</button>
                 </div>
             </div>
         </div>
@@ -1642,12 +1642,12 @@ const renderAdminClientView = (app, id) => {
     window.revealContract = (cid) => {
         db.clients[cid].contractRevealed = true;
         saveDB();
-        showToast('ØªÙ… Ø¥Ø¸Ù‡Ø§Ø± Ø§Ù„Ø¹Ù‚Ø¯ Ù„Ù„Ø¹Ù…ÙŠÙ„', 'success');
+        showToast('تم إظهار العقد للعميل', 'success');
         renderAdminClientView(document.getElementById('app'), cid);
     };
 
     window.deleteClientFromProfile = (cid) => {
-        showModal('ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø­Ø°Ù', '<p style="color:var(--danger);">Ù‡Ù„ Ø£Ù†Øª Ù…ØªØ£ÙƒØ¯ Ù…Ù† Ø­Ø°Ù Ù‡Ø°Ø§ Ø§Ù„Ø¹Ù…ÙŠÙ„ ÙˆØ¬Ù…ÙŠØ¹ Ø¨ÙŠØ§Ù†Ø§ØªÙ‡ Ù†Ù‡Ø§Ø¦ÙŠØ§Ù‹ØŸ Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø§Ù„ØªØ±Ø§Ø¬Ø¹ Ø¹Ù† Ù‡Ø°Ø§ Ø§Ù„Ø¥Ø¬Ø±Ø§Ø¡.</p>', () => {
+        showModal('تأكيد الحذف', '<p style="color:var(--danger);">هل أنت متأكد من حذف هذا العميل وجميع بياناته نهائياً؟ لا يمكن التراجع عن هذا الإجراء.</p>', () => {
             // Free up any booked slots
             const cl = db.clients[cid];
             if (cl && cl.meetingSlotId) {
@@ -1656,7 +1656,7 @@ const renderAdminClientView = (app, id) => {
             }
             delete db.clients[cid];
             saveDB();
-            showToast('ØªÙ… Ø­Ø°Ù Ø§Ù„Ø¹Ù…ÙŠÙ„', 'success');
+            showToast('تم حذف العميل', 'success');
             window.location.hash = '#dashboard';
         });
     };
@@ -1664,13 +1664,13 @@ const renderAdminClientView = (app, id) => {
     window.saveClientNotes = (cid) => {
         db.clients[cid].notes = document.getElementById('clientNotes').value;
         saveDB();
-        showToast('ØªÙ… Ø­ÙØ¸ Ø§Ù„Ù…Ù„Ø§Ø­Ø¸Ø§Øª', 'success');
+        showToast('تم حفظ الملاحظات', 'success');
     };
 };
 
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// ══════════════════════════════════════════════════════
 //  CLIENT-FACING APP
-// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// ══════════════════════════════════════════════════════
 const renderClientApp = (app, id) => {
     const client = db.clients[id];
     if (!client) {
@@ -1678,33 +1678,33 @@ const renderClientApp = (app, id) => {
             <div class="start-page">
                 <div class="start-content">
                     <div class="start-logo" style="border-color:var(--danger);"><i class="fas fa-exclamation-triangle" style="color:var(--danger);"></i></div>
-                    <h2>Ø¹Ø°Ø±Ø§Ù‹ØŒ Ù‡Ø°Ø§ Ø§Ù„Ø±Ø§Ø¨Ø· ØºÙŠØ± ØµØ­ÙŠØ­ Ø£Ùˆ ØªÙ… Ø­Ø°ÙÙ‡</h2>
-                    <p class="text-muted">ØªÙˆØ§ØµÙ„ Ù…Ø¹ Ø§Ù„Ù…ÙŠØ¯ÙŠØ§ Ø¨Ø§ÙŠØ± Ù„Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ø±Ø§Ø¨Ø· Ø¬Ø¯ÙŠØ¯</p>
+                    <h2>عذراً، هذا الرابط غير صحيح أو تم حذفه</h2>
+                    <p class="text-muted">تواصل مع الميديا باير للحصول على رابط جديد</p>
                 </div>
             </div>`;
         return;
     }
 
-    // â”€â”€â”€ Registration â”€â”€â”€
+    // ─── Registration ───
     if (!client.name || !client.phone) {
         app.innerHTML = `
             <div class="login-page">
                 <div class="card login-card">
                     <div style="text-align:center; margin-bottom:24px;">
                         <div class="start-logo" style="margin:0 auto 16px;"><i class="fas fa-user-plus"></i></div>
-                        <h2 class="gold-text">Ù…Ø±Ø­Ø¨Ø§Ù‹ Ø¨Ùƒ!</h2>
-                        <p class="text-muted">Ø¨Ø±Ø¬Ø§Ø¡ Ø¥Ø¯Ø®Ø§Ù„ Ø¨ÙŠØ§Ù†Ø§ØªÙƒ Ù„Ù„Ø¨Ø¯Ø¡</p>
+                        <h2 class="gold-text">مرحباً بك!</h2>
+                        <p class="text-muted">برجاء إدخال بياناتك للبدء</p>
                     </div>
                     <div class="form-group">
-                        <label class="form-label"><i class="fas fa-user"></i> Ø§Ù„Ø§Ø³Ù… Ø§Ù„ÙƒØ±ÙŠÙ… / Ø§Ø³Ù… Ø§Ù„Ø´Ø±ÙƒØ©</label>
-                        <input type="text" id="regName" class="form-input" placeholder="Ù…Ø«Ø§Ù„: Ø´Ø±ÙƒØ© Ø§Ù„Ù†Ø®Ø¨Ø©">
+                        <label class="form-label"><i class="fas fa-user"></i> الاسم الكريم / اسم الشركة</label>
+                        <input type="text" id="regName" class="form-input" placeholder="مثال: شركة النخبة">
                     </div>
                     <div class="form-group">
-                        <label class="form-label"><i class="fas fa-phone"></i> Ø±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ</label>
-                        <input type="tel" id="regPhone" class="form-input" placeholder="Ù…Ø«Ø§Ù„: 01012345678" style="direction:ltr; text-align:right;">
+                        <label class="form-label"><i class="fas fa-phone"></i> رقم الهاتف</label>
+                        <input type="tel" id="regPhone" class="form-input" placeholder="مثال: 01012345678" style="direction:ltr; text-align:right;">
                     </div>
                     <button onclick="registerClient('${id}')" class="btn btn-primary" style="width:100%; padding:14px;">
-                        <i class="fas fa-arrow-left"></i> Ø§Ø¨Ø¯Ø£ Ø§Ù„Ø¢Ù†
+                        <i class="fas fa-arrow-left"></i> ابدأ الآن
                     </button>
                 </div>
             </div>`;
@@ -1712,7 +1712,7 @@ const renderClientApp = (app, id) => {
         window.registerClient = (cid) => {
             const n = document.getElementById('regName').value.trim();
             const p = document.getElementById('regPhone').value.trim();
-            if (!n || !p) return showToast('Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø¥Ø¯Ø®Ø§Ù„ Ø§Ù„Ø§Ø³Ù… ÙˆØ±Ù‚Ù… Ø§Ù„Ù‡Ø§ØªÙ', 'error');
+            if (!n || !p) return showToast('الرجاء إدخال الاسم ورقم الهاتف', 'error');
             db.clients[cid].name = n;
             db.clients[cid].phone = p;
             db.clients[cid].status = 'registered';
@@ -1722,14 +1722,14 @@ const renderClientApp = (app, id) => {
         return;
     }
 
-    // â”€â”€â”€ Tabs â”€â”€â”€
+    // ─── Tabs ───
     const hasBrief = !!client.briefAnswers;
     const hasContract = client.contractRevealed;
 
-    let meetingBtnHtml = hasBrief ? `<button class="tab-btn" onclick="showClientTab('meeting')" id="cbtn_meeting"><i class="fas fa-calendar-alt"></i> Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬</button>` : '';
-    let contractBtnHtml = hasContract ? `<button class="tab-btn" onclick="showClientTab('contract')" id="cbtn_contract"><i class="fas fa-file-signature"></i> Ø§Ù„Ø¹Ù‚Ø¯</button>` : '';
+    let meetingBtnHtml = hasBrief ? `<button class="tab-btn" onclick="showClientTab('meeting')" id="cbtn_meeting"><i class="fas fa-calendar-alt"></i> الميتينج</button>` : '';
+    let contractBtnHtml = hasContract ? `<button class="tab-btn" onclick="showClientTab('contract')" id="cbtn_contract"><i class="fas fa-file-signature"></i> العقد</button>` : '';
 
-    // â”€â”€â”€ Brief Wizard â”€â”€â”€
+    // ─── Brief Wizard ───
     const totalQ = db.config.briefQuestions.length;
     let questionsHtml = '';
     db.config.briefQuestions.forEach((q, index) => {
@@ -1739,18 +1739,18 @@ const renderClientApp = (app, id) => {
         const requiredAttr = q.required ? 'required' : '';
 
         if (q.type === 'text') {
-            inputHtml = `<input type="text" id="${q.id}" class="form-input" value="${val}" ${readonly} ${requiredAttr} placeholder="Ø§ÙƒØªØ¨ Ø¥Ø¬Ø§Ø¨ØªÙƒ Ù‡Ù†Ø§...">`;
+            inputHtml = `<input type="text" id="${q.id}" class="form-input" value="${val}" ${readonly} ${requiredAttr} placeholder="اكتب إجابتك هنا...">`;
         } else if (q.type === 'file') {
             if (client.briefAnswers && val) {
                 if (val.startsWith('data:image')) inputHtml = `<img src="${val}" style="max-width:100%; border-radius:var(--radius-sm);">`;
-                else inputHtml = '<p class="text-success"><i class="fas fa-check-circle"></i> ØªÙ… Ø±ÙØ¹ Ø§Ù„Ù…Ù„Ù</p>';
+                else inputHtml = '<p class="text-success"><i class="fas fa-check-circle"></i> تم رفع الملف</p>';
             } else {
                 inputHtml = `
                     <div class="upload-box" onclick="document.getElementById('${q.id}').click()">
                         <input type="file" id="${q.id}" accept="image/*,.pdf,.doc,.docx" onchange="handleFilePreview(this, '${q.id}')">
                         <i class="fas fa-cloud-upload-alt"></i>
-                        <p class="text-muted">Ø§Ø¶ØºØ· Ù„Ø±ÙØ¹ Ù…Ù„Ù Ø£Ùˆ ØµÙˆØ±Ø©</p>
-                        <p class="text-muted" style="font-size:0.8rem;">Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ù‚ØµÙ‰ 2 Ù…ÙŠØ¬Ø§</p>
+                        <p class="text-muted">اضغط لرفع ملف أو صورة</p>
+                        <p class="text-muted" style="font-size:0.8rem;">الحد الأقصى 2 ميجا</p>
                     </div>
                     <div id="preview_${q.id}" style="margin-top:10px; display:none;" class="text-success"></div>`;
             }
@@ -1769,13 +1769,13 @@ const renderClientApp = (app, id) => {
 
         // Nav buttons
         let navBtns = '<div style="display:flex; justify-content:space-between; margin-top:24px;">';
-        if (index > 0) navBtns += `<button type="button" class="btn" onclick="goToStep(${index - 1})"><i class="fas fa-arrow-right"></i> Ø§Ù„Ø³Ø§Ø¨Ù‚</button>`;
+        if (index > 0) navBtns += `<button type="button" class="btn" onclick="goToStep(${index - 1})"><i class="fas fa-arrow-right"></i> السابق</button>`;
         else navBtns += '<div></div>';
         if (index < totalQ - 1) {
-            navBtns += `<button type="button" class="btn btn-primary" onclick="goToStep(${index + 1})">Ø§Ù„ØªØ§Ù„ÙŠ <i class="fas fa-arrow-left"></i></button>`;
+            navBtns += `<button type="button" class="btn btn-primary" onclick="goToStep(${index + 1})">التالي <i class="fas fa-arrow-left"></i></button>`;
         } else {
-            if (!client.briefAnswers) navBtns += `<button type="submit" class="btn btn-primary" style="background:var(--success); border:none;"><i class="fas fa-paper-plane"></i> Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ø±ÙŠÙ</button>`;
-            else navBtns += `<div class="badge badge-success" style="padding:10px 20px; font-size:0.95rem;"><i class="fas fa-check-circle"></i> ØªÙ… Ø§Ù„Ø¥Ø±Ø³Ø§Ù„ Ù…Ø³Ø¨Ù‚Ø§Ù‹</div>`;
+            if (!client.briefAnswers) navBtns += `<button type="submit" class="btn btn-primary" style="background:var(--success); border:none;"><i class="fas fa-paper-plane"></i> إرسال البريف</button>`;
+            else navBtns += `<div class="badge badge-success" style="padding:10px 20px; font-size:0.95rem;"><i class="fas fa-check-circle"></i> تم الإرسال مسبقاً</div>`;
         }
         navBtns += '</div>';
 
@@ -1790,7 +1790,7 @@ const renderClientApp = (app, id) => {
                 </div>
                 ${navBtns}
                 <div style="text-align:center; margin-top:16px; font-size:0.85rem; color:var(--text-muted);">
-                    Ø§Ù„Ø³Ø¤Ø§Ù„ ${index + 1} Ù…Ù† ${totalQ}
+                    السؤال ${index + 1} من ${totalQ}
                 </div>
             </div>`;
     });
@@ -1799,9 +1799,9 @@ const renderClientApp = (app, id) => {
         <div id="ctab_brief_view">
             <div style="margin-bottom:30px;">
                 <h1 style="font-size:2rem; font-weight:800; margin-bottom:8px;">
-                    ÙƒÙ„ Ø§Ù„Ù„ÙŠ Ù…Ø­ØªØ§Ø¬ÙŠÙ† Ù†Ø¹Ø±ÙÙ‡<br>Ø¹Ø´Ø§Ù† Ù†Ø³ÙˆÙ‘Ù‚ <span class="gold-text">Ø¨Ø±Ø§Ù†Ø¯Ùƒ</span> ØµØ­
+                    كل اللي محتاجين نعرفه<br>عشان نسوّق <span class="gold-text">براندك</span> صح
                 </h1>
-                <p class="text-muted">Ù…Ø±Ø­Ø¨Ø§Ù‹ ${client.name}ØŒ Ø¨Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø¥Ø¬Ø§Ø¨Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø£Ø³Ø¦Ù„Ø© Ø§Ù„ØªØ§Ù„ÙŠØ©</p>
+                <p class="text-muted">مرحباً ${client.name}، برجاء الإجابة على الأسئلة التالية</p>
             </div>
             <div class="progress-bar-container">
                 <div class="progress-bar-fill" id="wizardProgress" style="width:${(1 / totalQ) * 100}%"></div>
@@ -1811,7 +1811,7 @@ const renderClientApp = (app, id) => {
             </form>
         </div>`;
 
-    // â”€â”€â”€ Meeting Tab â”€â”€â”€
+    // ─── Meeting Tab ───
     let meetingTab = '';
     if (hasBrief) {
         if (client.meetingSlotId) {
@@ -1823,12 +1823,12 @@ const renderClientApp = (app, id) => {
                             <div style="margin-bottom:20px;">
                                 <i class="fas fa-calendar-check text-success" style="font-size:3rem;"></i>
                             </div>
-                            <h2 class="text-success" style="margin-bottom:16px;">ØªÙ… Ø­Ø¬Ø² Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬ Ø¨Ù†Ø¬Ø§Ø­!</h2>
+                            <h2 class="text-success" style="margin-bottom:16px;">تم حجز الميتينج بنجاح!</h2>
                             <p style="font-size:1.1rem; margin-bottom:8px;">
                                 <i class="fas fa-calendar"></i> <strong>${formatDateTime(slot.dateTime)}</strong>
                             </p>
                             <div id="meetingTimerContainer" class="timer-display">
-                                Ø¬Ø§Ø±ÙŠ Ø­Ø³Ø§Ø¨ Ø§Ù„ÙˆÙ‚Øª Ø§Ù„Ù…ØªØ¨Ù‚ÙŠ...
+                                جاري حساب الوقت المتبقي...
                             </div>
                         </div>
                     </div>`;
@@ -1840,9 +1840,9 @@ const renderClientApp = (app, id) => {
                     const now = Date.now();
                     if (now >= unlockTime) {
                         timerEl.innerHTML = `
-                            <p class="text-success" style="font-size:1.2rem; margin-bottom:16px;"><i class="fas fa-door-open"></i> Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬ Ù…ØªØ§Ø­ Ø§Ù„Ø¢Ù†!</p>
+                            <p class="text-success" style="font-size:1.2rem; margin-bottom:16px;"><i class="fas fa-door-open"></i> الميتينج متاح الآن!</p>
                             <a href="${slot.link}" target="_blank" class="btn btn-primary" style="padding:14px 40px; font-size:1.1rem;">
-                                <i class="fas fa-video"></i> Ø¯Ø®ÙˆÙ„ Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬
+                                <i class="fas fa-video"></i> دخول الميتينج
                             </a>`;
                         clearInterval(window.meetingInterval);
                     } else {
@@ -1852,17 +1852,17 @@ const renderClientApp = (app, id) => {
                         const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
                         const s = Math.floor((diff % (1000 * 60)) / 1000);
                         timerEl.innerHTML = `
-                            <p class="text-muted" style="margin-bottom:12px;"><i class="fas fa-lock"></i> Ø§Ù„Ø±Ø§Ø¨Ø· ÙŠÙØªØ­ Ù‚Ø¨Ù„ Ø§Ù„Ù…ÙˆØ¹Ø¯ Ø¨Ù€ 10 Ø¯Ù‚Ø§Ø¦Ù‚</p>
+                            <p class="text-muted" style="margin-bottom:12px;"><i class="fas fa-lock"></i> الرابط يفتح قبل الموعد بـ 10 دقائق</p>
                             <div class="timer-digits">
-                                ${d > 0 ? `<div class="timer-unit"><span class="num">${d}</span><span class="label">ÙŠÙˆÙ…</span></div>` : ''}
-                                <div class="timer-unit"><span class="num">${String(h).padStart(2, '0')}</span><span class="label">Ø³Ø§Ø¹Ø©</span></div>
-                                <div class="timer-unit"><span class="num">${String(m).padStart(2, '0')}</span><span class="label">Ø¯Ù‚ÙŠÙ‚Ø©</span></div>
-                                <div class="timer-unit"><span class="num">${String(s).padStart(2, '0')}</span><span class="label">Ø«Ø§Ù†ÙŠØ©</span></div>
+                                ${d > 0 ? `<div class="timer-unit"><span class="num">${d}</span><span class="label">يوم</span></div>` : ''}
+                                <div class="timer-unit"><span class="num">${String(h).padStart(2, '0')}</span><span class="label">ساعة</span></div>
+                                <div class="timer-unit"><span class="num">${String(m).padStart(2, '0')}</span><span class="label">دقيقة</span></div>
+                                <div class="timer-unit"><span class="num">${String(s).padStart(2, '0')}</span><span class="label">ثانية</span></div>
                             </div>`;
                     }
                 }, 1000);
             } else {
-                meetingTab = '<div id="ctab_meeting_view" class="hidden"><div class="card"><p class="text-muted">Ø§Ù„Ù…ÙŠØ¹Ø§Ø¯ Ø§Ù„Ø°ÙŠ Ø§Ø®ØªØ±ØªÙ‡ ØªÙ… Ø­Ø°ÙÙ‡ØŒ ØªÙˆØ§ØµÙ„ Ù…Ø¹ Ø§Ù„Ù…ÙŠØ¯ÙŠØ§ Ø¨Ø§ÙŠØ±.</p></div></div>';
+                meetingTab = '<div id="ctab_meeting_view" class="hidden"><div class="card"><p class="text-muted">الميعاد الذي اخترته تم حذفه، تواصل مع الميديا باير.</p></div></div>';
             }
         } else {
             // Available slots grouped by day
@@ -1875,7 +1875,7 @@ const renderClientApp = (app, id) => {
 
             let availableSlotsHtml = '';
             if (Object.keys(clientSlotsGrouped).length === 0) {
-                availableSlotsHtml = `<div class="empty-state"><i class="fas fa-calendar-times"></i><p>Ù„Ø§ ØªÙˆØ¬Ø¯ Ù…ÙˆØ§Ø¹ÙŠØ¯ Ù…ØªØ§Ø­Ø© Ø­Ø§Ù„ÙŠØ§Ù‹<br><span class="text-muted">Ø­Ø§ÙˆÙ„ Ù…Ø±Ø© Ø£Ø®Ø±Ù‰ Ù„Ø§Ø­Ù‚Ø§Ù‹</span></p></div>`;
+                availableSlotsHtml = `<div class="empty-state"><i class="fas fa-calendar-times"></i><p>لا توجد مواعيد متاحة حالياً<br><span class="text-muted">حاول مرة أخرى لاحقاً</span></p></div>`;
             } else {
                 Object.keys(clientSlotsGrouped).forEach(date => {
                     clientSlotsGrouped[date].sort((a, b) => new Date(a.dateTime) - new Date(b.dateTime));
@@ -1900,14 +1900,14 @@ const renderClientApp = (app, id) => {
             }
 
             const submitBtn = Object.keys(clientSlotsGrouped).length > 0
-                ? `<button onclick="bookMeeting('${id}')" class="btn btn-primary" style="width:100%; padding:14px; margin-top:20px;"><i class="fas fa-check-circle"></i> ØªØ£ÙƒÙŠØ¯ Ø§Ù„Ø­Ø¬Ø²</button>`
+                ? `<button onclick="bookMeeting('${id}')" class="btn btn-primary" style="width:100%; padding:14px; margin-top:20px;"><i class="fas fa-check-circle"></i> تأكيد الحجز</button>`
                 : '';
 
             meetingTab = `
                 <div id="ctab_meeting_view" class="hidden">
                     <div class="card">
-                        <h2 class="gold-text" style="margin-bottom:8px;"><i class="fas fa-calendar-plus"></i> Ø­Ø¬Ø² Ù…ÙŠØªÙŠÙ†Ø¬ Ø§Ù„Ø§Ù†Ø·Ù„Ø§Ù‚</h2>
-                        <p class="text-muted" style="margin-bottom:20px;">Ø§Ø¶ØºØ· Ø¹Ù„Ù‰ Ø§Ù„ÙŠÙˆÙ… Ø§Ù„Ù…Ù†Ø§Ø³Ø¨ Ù„Ùƒ ÙˆØ§Ø®ØªØ± Ø§Ù„ÙˆÙ‚Øª</p>
+                        <h2 class="gold-text" style="margin-bottom:8px;"><i class="fas fa-calendar-plus"></i> حجز ميتينج الانطلاق</h2>
+                        <p class="text-muted" style="margin-bottom:20px;">اضغط على اليوم المناسب لك واختر الوقت</p>
                         ${availableSlotsHtml}
                         ${submitBtn}
                     </div>
@@ -1915,13 +1915,13 @@ const renderClientApp = (app, id) => {
         }
     }
 
-    // â”€â”€â”€ Contract Tab â”€â”€â”€
+    // ─── Contract Tab ───
     let contractTab = '';
     if (hasContract) {
         const contractLines = db.config.contractTerms.split('\n').map(line => {
             line = line.trim();
             if (!line) return '<br>';
-            if (line.startsWith('Ø§Ù„Ø¨Ù†Ø¯')) return `<h3 style="color:var(--gold); margin-top:24px;">${line}</h3>`;
+            if (line.startsWith('البند')) return `<h3 style="color:var(--gold); margin-top:24px;">${line}</h3>`;
             return `<p style="margin-bottom:8px;">${line}</p>`;
         }).join('');
 
@@ -1931,34 +1931,34 @@ const renderClientApp = (app, id) => {
                 <div class="contract-sign-section">
                     <label style="display:flex; align-items:flex-start; gap:10px; cursor:pointer; margin-bottom:16px;">
                         <input type="checkbox" id="agreeCheck" style="accent-color:var(--gold); width:20px; height:20px; margin-top:4px;">
-                        <span style="color:#333;">Ø£Ù‚Ø± Ø£Ù†Ø§ (${client.name}) Ø¨Ù…ÙˆØ§ÙÙ‚ØªÙŠ Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ§Ù‹ Ø¹Ù„Ù‰ Ø¬Ù…ÙŠØ¹ Ø¨Ù†ÙˆØ¯ Ù‡Ø°Ø§ Ø§Ù„Ø¹Ù‚Ø¯ ÙˆØ§Ù„ØªØ²Ø§Ù…ÙŠ Ø¨Ù‡Ø§.</span>
+                        <span style="color:#333;">أقر أنا (${client.name}) بموافقتي إلكترونياً على جميع بنود هذا العقد والتزامي بها.</span>
                     </label>
                     <button onclick="signContract('${id}')" class="btn btn-primary" style="width:100%;">
-                        <i class="fas fa-signature"></i> ØªÙˆÙ‚ÙŠØ¹ ÙˆØ¥Ø±Ø³Ø§Ù„
+                        <i class="fas fa-signature"></i> توقيع وإرسال
                     </button>
                 </div>`;
         } else {
             signSection = `
                 <div style="text-align:center; margin-top:24px; padding:20px; background:var(--success-bg); border-radius:var(--radius-sm);">
                     <i class="fas fa-check-circle text-success" style="font-size:2rem;"></i>
-                    <p class="text-success" style="font-weight:700; margin-top:8px;">ØªÙ… Ø§Ù„ØªÙˆÙ‚ÙŠØ¹ Ø¥Ù„ÙƒØªØ±ÙˆÙ†ÙŠØ§Ù‹ Ø¨Ù†Ø¬Ø§Ø­ Ù…Ù† Ù‚Ø¨Ù„ (${client.name})</p>
+                    <p class="text-success" style="font-weight:700; margin-top:8px;">تم التوقيع إلكترونياً بنجاح من قبل (${client.name})</p>
                 </div>
                 <button onclick="window.print()" class="btn btn-primary no-print" style="width:100%; margin-top:16px;">
-                    <i class="fas fa-print"></i> Ø·Ø¨Ø§Ø¹Ø© / ØªÙ†Ø²ÙŠÙ„ PDF
+                    <i class="fas fa-print"></i> طباعة / تنزيل PDF
                 </button>`;
         }
 
         contractTab = `
             <div id="ctab_contract_view" class="hidden">
                 <div style="margin-bottom:16px;">
-                    <h1 style="font-size:1.8rem; font-weight:800;">Ø¹Ù‚Ø¯ ØªÙ‚Ø¯ÙŠÙ… Ø®Ø¯Ù…Ø§Øª <span class="gold-text">Ø§Ù„ØªØ³ÙˆÙŠÙ‚ Ø§Ù„Ø±Ù‚Ù…ÙŠ</span></h1>
+                    <h1 style="font-size:1.8rem; font-weight:800;">عقد تقديم خدمات <span class="gold-text">التسويق الرقمي</span></h1>
                 </div>
                 <div class="contract-body">
                     ${contractLines}
                     <div style="margin-top:40px; border-top:2px dashed #ddd; padding-top:24px;">
-                        <h3 style="margin-bottom:16px;">ØªÙˆÙ‚ÙŠØ¹ Ø§Ù„Ø¹Ù‚Ø¯</h3>
-                        <p><strong>Ø§Ù„Ø·Ø±Ù Ø§Ù„Ø£ÙˆÙ„ (Ø§Ù„Ø¹Ù…ÙŠÙ„):</strong> ${client.name}</p>
-                        <p><strong>Ø§Ù„Ø·Ø±Ù Ø§Ù„Ø«Ø§Ù†ÙŠ:</strong> ${db.config.adminName}</p>
+                        <h3 style="margin-bottom:16px;">توقيع العقد</h3>
+                        <p><strong>الطرف الأول (العميل):</strong> ${client.name}</p>
+                        <p><strong>الطرف الثاني:</strong> ${db.config.adminName}</p>
                         ${signSection}
                     </div>
                 </div>
@@ -1969,7 +1969,7 @@ const renderClientApp = (app, id) => {
         <div class="container">
             <!-- Client Tabs -->
             <div class="tabs no-print" style="margin-bottom:24px;">
-                <button class="tab-btn active" onclick="showClientTab('brief')" id="cbtn_brief"><i class="fas fa-clipboard-list"></i> Ø§Ù„Ø¨Ø±ÙŠÙ</button>
+                <button class="tab-btn active" onclick="showClientTab('brief')" id="cbtn_brief"><i class="fas fa-clipboard-list"></i> البريف</button>
                 ${meetingBtnHtml}
                 ${contractBtnHtml}
             </div>
@@ -1980,7 +1980,7 @@ const renderClientApp = (app, id) => {
         </div>
     `;
 
-    // â”€â”€â”€ Client Functions â”€â”€â”€
+    // ─── Client Functions ───
     window.goToStep = (targetIndex) => {
         document.querySelectorAll('.wizard-step').forEach(el => el.classList.add('hidden'));
         const targetEl = document.getElementById('q_step_' + targetIndex);
@@ -1994,7 +1994,7 @@ const renderClientApp = (app, id) => {
             const preview = document.getElementById('preview_' + qId);
             if (preview) {
                 preview.style.display = 'block';
-                preview.innerHTML = `<i class="fas fa-check-circle"></i> ØªÙ… Ø§Ø®ØªÙŠØ§Ø±: ${input.files[0].name}`;
+                preview.innerHTML = `<i class="fas fa-check-circle"></i> تم اختيار: ${input.files[0].name}`;
             }
         }
     };
@@ -2023,7 +2023,7 @@ const renderClientApp = (app, id) => {
                 const fileInput = document.getElementById(q.id);
                 if (fileInput && fileInput.files.length > 0) {
                     const file = fileInput.files[0];
-                    if (file.size > 2.5 * 1024 * 1024) { showToast('Ø­Ø¬Ù… Ø§Ù„Ù…Ù„Ù ÙƒØ¨ÙŠØ± Ø¬Ø¯Ø§Ù‹! Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ù‚ØµÙ‰ 2 Ù…ÙŠØ¬Ø§', 'error'); return; }
+                    if (file.size > 2.5 * 1024 * 1024) { showToast('حجم الملف كبير جداً! الحد الأقصى 2 ميجا', 'error'); return; }
                     const base64 = await new Promise(resolve => {
                         const reader = new FileReader();
                         reader.onload = e => resolve(e.target.result);
@@ -2049,46 +2049,46 @@ const renderClientApp = (app, id) => {
                 }
             }
         });
-        if (!valid) return showToast('Ø¨Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø¥Ø¬Ø§Ø¨Ø© Ø¹Ù„Ù‰ Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ø³Ø¦Ù„Ø© Ø§Ù„Ø¥Ø¬Ø¨Ø§Ø±ÙŠØ©', 'error');
+        if (!valid) return showToast('برجاء الإجابة على جميع الأسئلة الإجبارية', 'error');
 
         await Promise.all(promises);
         db.clients[p].briefAnswers = answers;
         db.clients[p].status = 'brief-done';
         saveDB();
-        showToast('ØªÙ… Ø¥Ø±Ø³Ø§Ù„ Ø§Ù„Ø¨Ø±ÙŠÙ Ø¨Ù†Ø¬Ø§Ø­! ðŸŽ‰', 'success');
+        showToast('تم إرسال البريف بنجاح! 🎉', 'success');
         renderClientApp(document.getElementById('app'), p);
         setTimeout(() => showClientTab('meeting'), 300);
     };
 
     window.bookMeeting = (p) => {
         const checked = document.querySelector('input[name="slotSelect"]:checked');
-        if (!checked) return showToast('Ø¨Ø±Ø¬Ø§Ø¡ Ø§Ø®ØªÙŠØ§Ø± Ù…ÙŠØ¹Ø§Ø¯ Ø£ÙˆÙ„Ø§Ù‹', 'error');
+        if (!checked) return showToast('برجاء اختيار ميعاد أولاً', 'error');
         const slotId = checked.value;
         const slot = db.config.slots.find(s => s.id === slotId);
-        if (!slot || slot.status !== 'available') return showToast('Ø¹Ø°Ø±Ø§Ù‹ØŒ ØªÙ… Ø­Ø¬Ø² Ù‡Ø°Ø§ Ø§Ù„Ù…ÙŠØ¹Ø§Ø¯ Ø¨Ø§Ù„ÙØ¹Ù„', 'error');
+        if (!slot || slot.status !== 'available') return showToast('عذراً، تم حجز هذا الميعاد بالفعل', 'error');
 
         slot.status = 'booked';
         slot.bookedByPhone = p;
         db.clients[p].meetingSlotId = slotId;
         db.clients[p].status = 'meeting-booked';
         saveDB();
-        showToast('ØªÙ… Ø­Ø¬Ø² Ø§Ù„Ù…ÙŠØªÙŠÙ†Ø¬ Ø¨Ù†Ø¬Ø§Ø­! ðŸŽ‰', 'success');
+        showToast('تم حجز الميتينج بنجاح! 🎉', 'success');
         renderClientApp(document.getElementById('app'), p);
         setTimeout(() => showClientTab('meeting'), 300);
     };
 
     window.signContract = (p) => {
         const check = document.getElementById('agreeCheck');
-        if (!check || !check.checked) return showToast('ÙŠØ¬Ø¨ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø¨Ù†ÙˆØ¯ Ø£ÙˆÙ„Ø§Ù‹', 'error');
+        if (!check || !check.checked) return showToast('يجب الموافقة على البنود أولاً', 'error');
         db.clients[p].contractSigned = true;
         db.clients[p].status = 'signed';
         saveDB();
-        showToast('ØªÙ… ØªÙˆÙ‚ÙŠØ¹ Ø§Ù„Ø¹Ù‚Ø¯ Ø¨Ù†Ø¬Ø§Ø­! ðŸŽ‰', 'success');
+        showToast('تم توقيع العقد بنجاح! 🎉', 'success');
         renderClientApp(document.getElementById('app'), p);
         setTimeout(() => showClientTab('contract'), 300);
     };
 
-    // â”€â”€â”€ Default Tab Logic â”€â”€â”€
+    // ─── Default Tab Logic ───
     if (hasContract && !client.contractSigned) {
         showClientTab('contract');
     } else if (hasBrief && !client.meetingSlotId) {
@@ -2100,7 +2100,7 @@ const renderClientApp = (app, id) => {
     }
 };
 
-// â”€â”€â”€ Init â”€â”€â”€
+// ─── Init ───
 navigate();
 
     </script>
